@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/anssi/sampo/trunk/apps/frontend/modules/stockevent'
-let g:netrw_dirhist_2='/home/anssi/sampo/trunk/apps/frontend/modules/stockevent/actions'
-let g:netrw_dirhist_3='/home/anssi/sampo/trunk'
-let g:netrw_dirhist_4='/home/anssi/sampo/trunk/apps'
-let g:netrw_dirhist_5='/home/anssi/sampo/trunk/apps/frontend'
-let g:netrw_dirhist_6='/home/anssi/sampo/trunk/apps/frontend/modules/stockevent'
-let g:netrw_dirhist_7='/home/anssi/sampo/trunk/apps/frontend/modules/stockevent/actions'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/anssi/dev/c/sdl/src/memory_tracer'
+let g:netrw_dirhist_2='/home/anssi/dev/c/toolbox/log'
+let g:netrw_dirhist_3='/home/anssi/dev/c/toolbox/log/src'
+let g:netrw_dirhist_4='/home/anssi/reports/kerays'
