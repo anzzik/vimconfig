@@ -5,8 +5,8 @@ set history=700
 set autoread
 set nocompatible
 set tabstop=8
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=8
+set shiftwidth=8
 set noexpandtab
 set showmatch
 set ruler
@@ -31,13 +31,15 @@ set viminfo='10,\"100,:20,%,n~/.viminfo
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 " set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
 
+" For loading plugins
 execute pathogen#infect()
 
 colorscheme desert 
-syntax enable 
+syntax on 
 filetype on
 filetype plugin indent on
 autocmd! bufwritepost vimrc source ~/.vimrc
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 hi LineNr term=bold ctermfg=Red guifg=#80a0ff gui=bold
 cmap w!! w !sudo tee % >/dev/null
 
@@ -65,30 +67,8 @@ map <leader>c :Gcommit<cr>
 map <leader>l :Glog<cr>
 map <leader>g :Ggrep -in 
 
-"let g:miniBufExplorerMoreThanOne = 2
-"let g:miniBufExplModSelTarget = 0
-"let g:miniBufExplUseSingleClick = 1
-"let g:miniBufExplMapWindowNavVim = 1
-"let g:miniBufExplVSplit = 25
-"let g:miniBufExplSplitBelow=1
-"map <leader>, :TMiniBufExplorer<cr>
-"autocmd BufRead,BufNew :call UMiniBufExplorer
-
 let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>, :BufExplorer<cr>
-
-"function! CurDir()
-"    let curdir = substitute(getcwd(), '/Users/amir/', "~/", "g")
-"    return curdir
-"endfunction
-
-"function! HasPaste()
-"    if &paste
-"        return 'PASTE MODE  '
-"    else
-"        return ''
-"    endif
-"endfunction
 
