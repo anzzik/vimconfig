@@ -66,6 +66,8 @@ map <leader>s :Gstatus<cr>
 map <leader>c :Gcommit<cr>
 map <leader>l :Glog<cr>
 map <leader>g :Ggrep -in 
+map <leader>h :set filetype=html<cr>
+map <leader>p :set filetype=php<cr>
 
 let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
