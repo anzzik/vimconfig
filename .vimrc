@@ -33,7 +33,7 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 syntax on 
 filetype on
 filetype plugin indent on
-colorscheme wombat256 
+colorscheme wombat 
 
 " For loading plugins
 execute pathogen#infect()
