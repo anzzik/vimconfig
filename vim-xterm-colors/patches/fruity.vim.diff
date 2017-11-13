@@ -1,0 +1,45 @@
+--- originals/fruity.vim	2009-06-04 20:53:28.000000000 -0700
++++ patched/fruity.vim	2010-04-21 13:19:42.000000000 -0700
+@@ -5,6 +5,8 @@
+ " Author:   Armin Ronacher <armin.ronacher@active-4.com>
+ " Version:  0.2
+ "
++" VIM-XTERM-TAG
++
+ set background=dark
+ 
+ hi clear
+@@ -145,3 +147,33 @@
+ " ERuby Highlighting (for my eruby.vim)
+ hi erubyRubyDelim   guifg=#2c8a16                   gui=bold
+ hi erubyComment     guifg=#4d9b3a                   gui=italic
++
++hi Cursor guifg=bg
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=cyan
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=cyan
++hi Ignore guifg=bg
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi Question gui=bold guifg=green
++hi SignColumn guifg=cyan
++hi SpecialKey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Underlined guifg=#80a0ff
++hi Visual guibg=darkgrey
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guifg=bg

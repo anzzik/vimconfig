@@ -1,0 +1,28 @@
+--- originals/autumn.vim	2010-04-05 10:31:09.000000000 -0700
++++ patched/autumn.vim	2010-04-21 11:58:59.000000000 -0700
+@@ -4,6 +4,8 @@
+ "     version: 1.0
+ " This color scheme uses a light background.
+ 
++" VIM-XTERM-TAG
++
+ set background=light
+ hi clear
+ if exists("syntax_on")
+@@ -67,3 +69,16 @@
+ hi Todo         gui=BOLD,UNDERLINE guifg=#0080f0 guibg=NONE
+ hi Type         gui=BOLD guifg=#b06c58 guibg=NONE
+ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
++
++hi CursorColumn guibg=grey90
++hi CursorLine gui=NONE guibg=grey90
++hi MatchParen guibg=cyan
++hi Pmenu guibg=lightmagenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=grey
++hi SignColumn guibg=grey guifg=darkblue
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=lightgrey guifg=NONE

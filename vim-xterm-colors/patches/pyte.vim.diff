@@ -1,0 +1,30 @@
+--- originals/pyte.vim	2009-06-04 20:37:46.000000000 -0700
++++ patched/pyte.vim	2010-04-21 21:35:59.000000000 -0700
+@@ -1,3 +1,4 @@
++" VIM-XTERM-TAG
+ 
+ set background=light
+ 
+@@ -90,3 +91,22 @@
+ hi DiffDelete guifg=NONE guibg=#f0e0b0 gui=italic,bold
+ 
+ 
++hi CursorLine gui=NONE
++hi Directory guifg=blue
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=darkblue
++hi Ignore guifg=bg
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=grey
++hi Question gui=bold guifg=seagreen
++hi Search guibg=yellow
++hi SignColumn guibg=grey guifg=darkblue
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi Visual guibg=lightgrey
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black

@@ -1,0 +1,27 @@
+--- originals/synic.vim	2009-06-04 20:53:30.000000000 -0700
++++ patched/synic.vim	2010-04-21 21:48:14.000000000 -0700
+@@ -22,6 +22,7 @@
+ ""
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 
++" VIM-XTERM-TAG
+ 
+ set background=dark
+ hi clear
+@@ -78,4 +79,16 @@
+ hi Type         gui=NONE guifg=NavajoWhite guibg=bg
+ hi Underlined   gui=underline guifg=fg guibg=bg
+ 
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi MatchParen guibg=darkcyan
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi SignColumn guibg=grey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++
+ " vim: sw=2

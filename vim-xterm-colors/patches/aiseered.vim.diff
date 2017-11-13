@@ -1,0 +1,50 @@
+--- originals/aiseered.vim	2010-04-05 10:31:09.000000000 -0700
++++ patched/aiseered.vim	2010-04-21 11:56:14.000000000 -0700
+@@ -9,6 +9,8 @@
+ "          by Jo Vermeulen <jo@lumumba.luc.ac.be>
+ " Date   : January 25th 2005
+ 
++" VIM-XTERM-TAG
++
+ set background=dark
+ hi clear
+ if exists("syntax_on")
+@@ -35,3 +37,38 @@
+ hi SpecialChar guifg=#ffaa00
+ hi StorageClass guifg=#ddaacc
+ hi Error guifg=red guibg=white
++
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=cyan
++hi ErrorMsg guifg=white
++hi FoldColumn guibg=grey guifg=cyan
++hi Folded guibg=darkgrey guifg=cyan
++hi Identifier gui=NONE
++hi Ignore guifg=bg
++hi LineNr guifg=yellow
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold guifg=blue
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi Question gui=bold guifg=green
++hi SignColumn guibg=grey guifg=cyan
++hi SpecialKey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Title gui=bold guifg=magenta
++hi Todo guibg=yellow guifg=blue
++hi Underlined guifg=#80a0ff
++hi Visual guibg=darkgrey
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guibg=fg guifg=bg

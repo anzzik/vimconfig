@@ -1,0 +1,71 @@
+--- originals/torte.vim	2010-01-21 00:00:16.000000000 -0800
++++ patched/torte.vim	2010-04-21 22:15:49.000000000 -0700
+@@ -5,6 +5,8 @@
+ " optimized for TFT panels
+ " $Revision: 1.1 $
+ 
++" VIM-XTERM-TAG
++
+ set background=dark
+ hi clear
+ if exists("syntax_on")
+@@ -27,17 +29,6 @@
+ highlight Statement  guifg=Yellow                       gui=NONE
+ highlight Type                                          gui=NONE
+ 
+-" Console
+-highlight Normal     ctermfg=LightGrey  ctermbg=Black
+-highlight Search     ctermfg=Black      ctermbg=Red     cterm=NONE
+-highlight Visual                                        cterm=reverse
+-highlight Cursor     ctermfg=Black      ctermbg=Green   cterm=bold
+-highlight Special    ctermfg=Brown
+-highlight Comment    ctermfg=Blue
+-highlight StatusLine ctermfg=blue       ctermbg=white
+-highlight Statement  ctermfg=Yellow                     cterm=NONE
+-highlight Type                                          cterm=NONE
+-
+ " only for vim 5
+ if has("unix")
+   if v:version<600
+@@ -49,3 +40,41 @@
+   endif
+ endif
+ 
++hi Constant guifg=#ffa0a0
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=cyan
++hi Error guibg=red guifg=white
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=cyan
++hi Folded guibg=darkgrey guifg=cyan
++hi Identifier gui=NONE guifg=#40ffff
++hi Ignore guifg=bg
++hi LineNr guifg=yellow
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold guifg=blue
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi PreProc guifg=#ff80ff
++hi Question gui=bold guifg=green
++hi SignColumn guibg=grey guifg=cyan
++hi SpecialKey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Title gui=bold guifg=magenta
++hi Todo guibg=yellow guifg=blue
++hi Type guifg=#60ff60
++hi Underlined guifg=#80a0ff
++hi Visual guibg=darkgrey
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guibg=fg guifg=bg

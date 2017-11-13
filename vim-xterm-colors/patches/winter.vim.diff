@@ -1,0 +1,53 @@
+--- originals/winter.vim	2009-06-04 20:44:44.000000000 -0700
++++ patched/winter.vim	2010-04-21 22:19:47.000000000 -0700
+@@ -10,12 +10,9 @@
+ "                                                                              "
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 
+-" Preprocess {{{
++" VIM-XTERM-TAG
+ 
+-if !has("gui_running")
+-    runtime! colors/default.vim
+-    finish
+-endif
++" Preprocess {{{
+ 
+ set background=light
+ 
+@@ -79,6 +76,35 @@
+ 
+ " }}}
+ 
++hi CursorColumn guibg=grey90
++hi CursorLine gui=NONE guibg=grey90
++hi DiffAdd guibg=lightblue
++hi DiffChange guibg=lightmagenta
++hi DiffDelete gui=bold guibg=lightcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=blue
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=darkblue
++hi Identifier guifg=darkcyan
++hi Ignore guifg=bg
++hi MatchParen guibg=cyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold guifg=blue
++hi Pmenu guibg=lightmagenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=grey
++hi Question gui=bold guifg=seagreen
++hi Search guibg=yellow
++hi SignColumn guibg=grey guifg=darkblue
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=lightgrey guifg=NONE
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guibg=fg guifg=bg
++
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ "                                                                              "
+ " vim:foldmethod=marker:tabstop=4

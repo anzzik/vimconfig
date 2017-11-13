@@ -1,0 +1,34 @@
+--- originals/ir_black.vim	2010-04-03 10:26:49.000000000 -0700
++++ patched/ir_black.vim	2010-04-21 15:24:35.000000000 -0700
+@@ -53,6 +53,8 @@
+ 
+ 
+ " ********************************************************************************
++" VIM-XTERM-TAG
++
+ set background=dark
+ hi clear
+ 
+@@ -210,3 +212,22 @@
+ 
+ 
+ " Special for PHP
++
++
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=cyan
++hi FoldColumn guibg=grey guifg=cyan
++hi Ignore guifg=bg
++hi MoreMsg gui=bold guifg=seagreen
++hi Question gui=bold guifg=green
++hi SignColumn guibg=grey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Underlined guifg=#80a0ff
++hi lCursor guibg=fg guifg=bg

@@ -1,0 +1,44 @@
+--- originals/asu1dark.vim	2010-04-05 10:31:09.000000000 -0700
++++ patched/asu1dark.vim	2010-04-21 11:57:41.000000000 -0700
+@@ -2,6 +2,8 @@
+ " Maintainer:   A. Sinan Unur
+ " Last Change:  2001/10/04
+ 
++" VIM-XTERM-TAG
++
+ " Dark color scheme
+ 
+ set background=dark
+@@ -57,3 +59,32 @@
+ hi LineNr       gui=NONE     guifg=#cccccc guibg=#334444
+ hi ModeMsg      gui=NONE     guifg=Blue    guibg=White
+ hi Question     gui=NONE     guifg=#66ff99 guibg=#110022
++
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=cyan
++hi Folded guibg=darkgrey guifg=cyan
++hi Ignore guifg=bg
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi SignColumn guibg=grey guifg=cyan
++hi SpecialChar guibg=NONE guifg=NONE
++hi SpecialKey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Title gui=bold guifg=magenta
++hi Todo guibg=yellow guifg=blue
++hi Underlined guifg=#80a0ff
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guibg=fg guifg=bg

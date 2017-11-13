@@ -1,0 +1,46 @@
+--- originals/xemacs.vim	2009-06-04 20:53:30.000000000 -0700
++++ patched/xemacs.vim	2010-04-21 22:23:07.000000000 -0700
+@@ -3,6 +3,7 @@
+ " Maintainer:   tranquility@portugalmail.pt
+ " Last Change: 5 June 2002
+ 
++" VIM-XTERM-TAG
+ 
+ " cool help screens
+ " :he group-name
+@@ -42,5 +43,34 @@
+ hi Type                                 guifg=#4a81b4 gui=NONE
+ hi Ignore                               guifg=grey29
+ hi Todo                                 guibg=gold guifg=black
+-hi WildMenu                     guibg=#b7b7b7 guibg=grey91
++hi WildMenu                     guibg=grey91
+ hi Directory            guibg=#cdcecd guifg=navyblue
++
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Error guibg=red guifg=white
++hi ErrorMsg guibg=red guifg=white
++hi Identifier gui=NONE
++hi LineNr guifg=yellow
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi Question gui=bold
++hi Search guifg=black
++hi SignColumn guibg=grey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi Statement gui=bold
++hi TabLine guibg=darkgrey guifg=NONE
++hi Title gui=bold
++hi Underlined guifg=#80a0ff
++hi WildMenu guifg=black
++hi lCursor guibg=fg guifg=bg

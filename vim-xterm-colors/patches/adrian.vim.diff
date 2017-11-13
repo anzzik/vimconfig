@@ -1,0 +1,51 @@
+--- originals/adrian.vim	2010-04-09 12:15:29.000000000 -0700
++++ patched/adrian.vim	2010-04-21 11:55:21.000000000 -0700
+@@ -25,11 +25,12 @@
+ " *(3)
+ " Move this file to adrian.vim for vim6.0aw.
+ "
++" VIM-XTERM-TAG
+ 
+ 
+ 
+-hi clear
+ set background=dark
++hi clear
+ if exists("syntax_on")
+   syntax reset
+ endif
+@@ -95,3 +96,34 @@
+ "highlight link SpecialComment  Special
+ highlight link Debug           Special
+ 
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi DiffAdd guibg=darkblue
++hi DiffChange guibg=darkmagenta
++hi DiffDelete gui=bold guibg=darkcyan guifg=blue
++hi DiffText guibg=red
++hi Directory guifg=cyan
++hi ErrorMsg guibg=red guifg=white
++hi FoldColumn guibg=grey guifg=cyan
++hi Folded guibg=darkgrey guifg=cyan
++hi Identifier gui=NONE
++hi LineNr guifg=yellow
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold guifg=blue
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi Question gui=bold guifg=green
++hi SignColumn guibg=grey guifg=cyan
++hi SpecialKey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Title gui=bold guifg=magenta
++hi Underlined guifg=#80a0ff
++hi WarningMsg guifg=red
++hi WildMenu guibg=yellow guifg=black
++hi lCursor guibg=fg guifg=bg

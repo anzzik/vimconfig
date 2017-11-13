@@ -1,0 +1,53 @@
+--- originals/tabula.vim	2009-06-04 20:53:30.000000000 -0700
++++ patched/tabula.vim	2010-04-23 20:36:14.000000000 -0700
+@@ -24,8 +24,10 @@
+ "   such that text files be displayed other than e.g. c sources
+ " =============================================================================
+ 
+-hi clear
++" VIM-XTERM-TAG
++
+ set background=dark
++hi clear
+ if exists("syntax_on")
+     syntax reset
+ endif
+@@ -165,6 +167,8 @@
+ "                             Color Definitions                            {{{1
+ "==============================================================================
+ 
++hi Normal               guifg=#71D289   guibg=#004A41                   ctermfg=84      ctermbg=23 
++
+ if version >= 700
+     hi SpellBad         guisp=#FF0000
+     hi SpellCap         guisp=#afaf00
+@@ -275,8 +279,6 @@
+ hi ModeMsg              guifg=#FFFFFF   guibg=#0000FF   gui=NONE        ctermfg=7       ctermbg=4       cterm=NONE
+ hi MoreMsg              guifg=#FFFFFF   guibg=#00A261   gui=NONE        ctermfg=7       ctermbg=28      cterm=NONE
+ 
+-hi Normal               guifg=#71D289   guibg=#004A41                   ctermfg=84      ctermbg=23 
+-
+ "------------------------------------------------------------------------------
+ " Preprocessor Variants:
+ "------------------------------------------------------------------------------
+@@ -347,7 +349,6 @@
+ hi WarningMsg           guifg=#000087   guibg=#FFFF00                   ctermfg=18      ctermbg=11
+ hi WildMenu             guifg=#20012e   guibg=#00a675   gui=bold        ctermfg=NONE    ctermbg=NONE    cterm=bold
+ "
+-hi pythonPreCondit                                                      ctermfg=2                       cterm=NONE
+ hi tkWidget             guifg=#D5B11C   guibg=bg        gui=bold        ctermfg=7                       cterm=bold
+ hi tclBookends          guifg=#7CFC94   guibg=NONE      gui=bold        ctermfg=2                       cterm=bold
+ 
+@@ -455,6 +456,12 @@
+ hi BadWord              guifg=#E4E300                   gui=underline   ctermfg=11                      cterm=underline
+ 
+ 
++hi CursorLine gui=NONE
++hi DiffDelete gui=bold
++hi NonText gui=bold
++hi Underlined guifg=#80a0ff
++hi lCursor guibg=fg guifg=bg
++
+ "==============================================================================
+ "                              Options Processor                           {{{1
+ "==============================================================================

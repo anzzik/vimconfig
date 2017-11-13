@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+
+# Copyright 2010 Kevin Goodsell
+#
+# This file is part of vim-xterm-colors.
+#
+# vim-xterm-colors is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License Version 2
+# as published by the Free Software Foundation.
+#
+# vim-xterm-colors is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with vim-xterm-colors.  If not, see
+# <http://www.gnu.org/licenses/>.
+
+import sys
+
+tag = '''\
+" NOTE: This colorscheme has been modified from the original. The changes are
+" primarily to add (or modify) 256-color xterm support, but may include other
+" changes also (e.g., bug fixes). Details can be found at:
+" http://github.com/KevinGoodsell/vim-xterm-colors
+'''
+
+def main(args=None):
+    if args is None:
+        args = sys.argv[1:]
+
+    assert len(args) == 2
+
+    (infile, outfile) = args
+
+    data = open(infile).read()
+    out = open(outfile, 'w')
+    out.write(data.replace('" VIM-XTERM-TAG\n', tag))
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -1,0 +1,34 @@
+--- originals/adaryn.vim	2010-04-11 09:37:40.000000000 -0700
++++ patched/adaryn.vim	2010-04-21 10:08:54.000000000 -0700
+@@ -8,6 +8,8 @@
+ " The cterm background is black since the dark blue was just too light.
+ " Also the cterm colors are very close to an old Borland C++ color setup.
+ 
++" VIM-XTERM-TAG
++
+ set background=dark
+ hi clear
+ if exists("syntax_on")
+@@ -70,3 +72,22 @@
+ hi Ignore	guifg=bg ctermfg=bg
+ 
+ 
++hi CursorColumn guibg=grey40
++hi CursorLine gui=NONE guibg=grey40
++hi Error guibg=red guifg=white
++hi FoldColumn gui=NONE
++hi Folded gui=NONE
++hi MatchParen guibg=darkcyan
++hi MoreMsg gui=bold guifg=seagreen
++hi NonText gui=bold
++hi Pmenu guibg=magenta
++hi PmenuSbar guibg=grey
++hi PmenuSel guibg=darkgrey
++hi Search gui=NONE
++hi SignColumn guibg=grey guifg=cyan
++hi SpellBad guibg=NONE
++hi SpellCap guibg=NONE
++hi SpellLocal guibg=NONE
++hi SpellRare guibg=NONE
++hi TabLine guibg=darkgrey guifg=NONE
++hi Underlined guifg=#80a0ff

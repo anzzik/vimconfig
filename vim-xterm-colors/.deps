@@ -1,0 +1,1473 @@
+{
+    "./scripts/tag patched/BlackSea.vim tagged/BlackSea.vim": {
+        "scripts/tag": "input-27df8c71f5edd83c83a986c3fa32c484", 
+        "tagged/BlackSea.vim": "output-37751a5b28398d5f3ad770f86112fa2d"
+    }, 
+    "./scripts/tag patched/ChocolateLiquor.vim tagged/ChocolateLiquor.vim": {
+        "tagged/ChocolateLiquor.vim": "output-52c68b397c2d4f0204d6001ff7b108bb"
+    }, 
+    "./scripts/tag patched/PapayaWhip.vim tagged/PapayaWhip.vim": {
+        "tagged/PapayaWhip.vim": "output-02fcace5706c7a145f9a8f97c740fe00"
+    }, 
+    "./scripts/tag patched/adaryn.vim tagged/adaryn.vim": {
+        "patched/adaryn.vim": "input-83e3367cb6f64b378db3795266d75d9e", 
+        "tagged/adaryn.vim": "output-d60f472bce8c0227520c74ca3d8ed5e5"
+    }, 
+    "./scripts/tag patched/adrian.vim tagged/adrian.vim": {
+        "tagged/adrian.vim": "output-33d55f828f9aba1fe51ae30abf003c68"
+    }, 
+    "./scripts/tag patched/aiseered.vim tagged/aiseered.vim": {
+        "tagged/aiseered.vim": "output-215694734b172e36384925bd1e38723f"
+    }, 
+    "./scripts/tag patched/anotherdark.vim tagged/anotherdark.vim": {
+        "tagged/anotherdark.vim": "output-254365cc5ad9de2c9ccfa0cb050d698f"
+    }, 
+    "./scripts/tag patched/aqua.vim tagged/aqua.vim": {
+        "tagged/aqua.vim": "output-80d51bc65bafd1e94fb39fd8a5c0d88b"
+    }, 
+    "./scripts/tag patched/asu1dark.vim tagged/asu1dark.vim": {
+        "tagged/asu1dark.vim": "output-f9bf057f2e6b0472ef7f5860ebd7fdd4"
+    }, 
+    "./scripts/tag patched/autumn.vim tagged/autumn.vim": {
+        "tagged/autumn.vim": "output-706aa951cf80c7a3e0ac7e6ad07f8472"
+    }, 
+    "./scripts/tag patched/autumn2.vim tagged/autumn2.vim": {
+        "tagged/autumn2.vim": "output-d662470f52aa182fd483df82ac5443cc"
+    }, 
+    "./scripts/tag patched/autumnleaf.vim tagged/autumnleaf.vim": {
+        "tagged/autumnleaf.vim": "output-2afe40656cba5f20a20dffb039f395ad"
+    }, 
+    "./scripts/tag patched/baycomb.vim tagged/baycomb.vim": {
+        "tagged/baycomb.vim": "output-f1525033804f912e17849f440e0ad36f"
+    }, 
+    "./scripts/tag patched/bclear.vim tagged/bclear.vim": {
+        "tagged/bclear.vim": "output-1394cde64b607ac21272dd276c84a92d"
+    }, 
+    "./scripts/tag patched/biogoo.vim tagged/biogoo.vim": {
+        "tagged/biogoo.vim": "output-f7ac2d9a82418a32e48679a190ce2d38"
+    }, 
+    "./scripts/tag patched/bluegreen.vim tagged/bluegreen.vim": {
+        "tagged/bluegreen.vim": "output-c5f05a63bdbbebedac0cb81eeacae13c"
+    }, 
+    "./scripts/tag patched/borland.vim tagged/borland.vim": {
+        "patched/borland.vim": "input-a05ff7970d66af0b2b5f645122a1694b", 
+        "tagged/borland.vim": "output-1e1c43eaccaa43aa1555c6563544b65e"
+    }, 
+    "./scripts/tag patched/breeze.vim tagged/breeze.vim": {
+        "tagged/breeze.vim": "output-849ee72ed4085380b26c4d1e0f2963a7"
+    }, 
+    "./scripts/tag patched/brookstream.vim tagged/brookstream.vim": {
+        "patched/brookstream.vim": "input-372d66caf81ce3032679fa6907557ac4", 
+        "tagged/brookstream.vim": "output-6a1659dda8925ac1bfda635c4e65c167"
+    }, 
+    "./scripts/tag patched/buttercream.vim tagged/buttercream.vim": {
+        "tagged/buttercream.vim": "output-cd3b37bb6b4246416f2d1f1722b04508"
+    }, 
+    "./scripts/tag patched/calmar256-dark.vim tagged/calmar256-dark.vim": {
+        "tagged/calmar256-dark.vim": "output-108efeb4cc457e5777b9eaab2d98de91"
+    }, 
+    "./scripts/tag patched/calmar256-light.vim tagged/calmar256-light.vim": {
+        "tagged/calmar256-light.vim": "output-edc04673021ec5d98c0e61e54ff59e90"
+    }, 
+    "./scripts/tag patched/camo.vim tagged/camo.vim": {
+        "tagged/camo.vim": "output-68262f2872bf23f3a13d080eb238308e"
+    }, 
+    "./scripts/tag patched/candy.vim tagged/candy.vim": {
+        "tagged/candy.vim": "output-efd2abd1eaf1bf45e4aaf3f6d91151a6"
+    }, 
+    "./scripts/tag patched/candycode.vim tagged/candycode.vim": {
+        "patched/candycode.vim": "input-71c117da2da00f86751bc8ade83093c0", 
+        "tagged/candycode.vim": "output-805234136f192c1dfa9d9469ed31edd0"
+    }, 
+    "./scripts/tag patched/chela_light.vim tagged/chela_light.vim": {
+        "tagged/chela_light.vim": "output-c3a133dba2a5a6108de55f538a77ff39"
+    }, 
+    "./scripts/tag patched/clarity.vim tagged/clarity.vim": {
+        "tagged/clarity.vim": "output-8a6ade4bf7c3303a3c41bf0270dd0f46"
+    }, 
+    "./scripts/tag patched/cleanphp.vim tagged/cleanphp.vim": {
+        "tagged/cleanphp.vim": "output-fee1ef0182abc8792d974e93ed19e55e"
+    }, 
+    "./scripts/tag patched/colorer.vim tagged/colorer.vim": {
+        "patched/colorer.vim": "input-2ad5f5cb63cabe3d841e733fa5436dda", 
+        "tagged/colorer.vim": "output-127ff9cbe834d1f92ace92611ef0b195"
+    }, 
+    "./scripts/tag patched/dante.vim tagged/dante.vim": {
+        "tagged/dante.vim": "output-50d0f8a5b3d3c0cd1fdfae8c6fa6dfec"
+    }, 
+    "./scripts/tag patched/darkZ.vim tagged/darkZ.vim": {
+        "tagged/darkZ.vim": "output-a4ed472861783b3924ebaf591c501903"
+    }, 
+    "./scripts/tag patched/darkblue2.vim tagged/darkblue2.vim": {
+        "tagged/darkblue2.vim": "output-7ec0950ccf311323066eccfb050fc70c"
+    }, 
+    "./scripts/tag patched/darkbone.vim tagged/darkbone.vim": {
+        "patched/darkbone.vim": "input-6b3da956db6745acb2b71e9261b868ea", 
+        "tagged/darkbone.vim": "output-3d0f87f96f0969cff317e840433ffdf0"
+    }, 
+    "./scripts/tag patched/darkslategray.vim tagged/darkslategray.vim": {
+        "tagged/darkslategray.vim": "output-acaf93753001578ac37064c3977727d5"
+    }, 
+    "./scripts/tag patched/darkspectrum.vim tagged/darkspectrum.vim": {
+        "patched/darkspectrum.vim": "input-b29c2e0cab3f26f9f14eddb777540add", 
+        "tagged/darkspectrum.vim": "output-07dd108f0c09fddc1445a68c88639b99"
+    }, 
+    "./scripts/tag patched/dawn.vim tagged/dawn.vim": {
+        "tagged/dawn.vim": "output-f3bd81ba0de3557af8e31a7f857ba7a9"
+    }, 
+    "./scripts/tag patched/denim.vim tagged/denim.vim": {
+        "patched/denim.vim": "input-a7ea7da912a9c6b6c920effe8a79dbf0", 
+        "tagged/denim.vim": "output-95670cbd7e4ba743379e7cd596fd6eea"
+    }, 
+    "./scripts/tag patched/desert256.vim tagged/desert256.vim": {
+        "tagged/desert256.vim": "output-2a0000ac7948236a47708f50e4df24a2"
+    }, 
+    "./scripts/tag patched/desertEx.vim tagged/desertEx.vim": {
+        "patched/desertEx.vim": "input-084a3ea8fa7884334020ef7ec3186d17", 
+        "tagged/desertEx.vim": "output-c1eb09afc9227b0a5100dbf80f995f9c"
+    }, 
+    "./scripts/tag patched/dusk.vim tagged/dusk.vim": {
+        "tagged/dusk.vim": "output-f2c70968b536d8765cd33fbb050ceb46"
+    }, 
+    "./scripts/tag patched/dw_blue.vim tagged/dw_blue.vim": {
+        "tagged/dw_blue.vim": "output-352751a342f4c683b9247fa5f597938d"
+    }, 
+    "./scripts/tag patched/dw_cyan.vim tagged/dw_cyan.vim": {
+        "tagged/dw_cyan.vim": "output-11faadaebc1c6bbea1fda6ee685fa6d6"
+    }, 
+    "./scripts/tag patched/dw_green.vim tagged/dw_green.vim": {
+        "tagged/dw_green.vim": "output-72fe735a979d68d8ada2eeea0f9cec8d"
+    }, 
+    "./scripts/tag patched/dw_orange.vim tagged/dw_orange.vim": {
+        "tagged/dw_orange.vim": "output-271b75e17e708932d78bf538d51b9ada"
+    }, 
+    "./scripts/tag patched/dw_purple.vim tagged/dw_purple.vim": {
+        "tagged/dw_purple.vim": "output-559f90e5e160a9a3ce42f5ced8103fb3"
+    }, 
+    "./scripts/tag patched/dw_red.vim tagged/dw_red.vim": {
+        "tagged/dw_red.vim": "output-af313961e23990db7b9602d9ff82cea2"
+    }, 
+    "./scripts/tag patched/dw_yellow.vim tagged/dw_yellow.vim": {
+        "tagged/dw_yellow.vim": "output-c8a37108d7399a1aa1c853895dd1a982"
+    }, 
+    "./scripts/tag patched/earendel.vim tagged/earendel.vim": {
+        "tagged/earendel.vim": "output-9e1aff0593aa4a1d083f97de719d7af0"
+    }, 
+    "./scripts/tag patched/eclipse.vim tagged/eclipse.vim": {
+        "tagged/eclipse.vim": "output-86a73453e8ca0eb3e10022b35b089887"
+    }, 
+    "./scripts/tag patched/ekvoli.vim tagged/ekvoli.vim": {
+        "tagged/ekvoli.vim": "output-7a2d06ab3a13399658ca904de16539c7"
+    }, 
+    "./scripts/tag patched/fine_blue.vim tagged/fine_blue.vim": {
+        "tagged/fine_blue.vim": "output-58a1497b8dd013b55ae5543f83394587"
+    }, 
+    "./scripts/tag patched/fnaqevan.vim tagged/fnaqevan.vim": {
+        "tagged/fnaqevan.vim": "output-34a215cef368744985f653132cb80420"
+    }, 
+    "./scripts/tag patched/fog.vim tagged/fog.vim": {
+        "tagged/fog.vim": "output-000d1e3666147802da1d66561a7219f1"
+    }, 
+    "./scripts/tag patched/freya.vim tagged/freya.vim": {
+        "tagged/freya.vim": "output-9cfef17c0e71523e0f8ae7312f4a1944"
+    }, 
+    "./scripts/tag patched/fruit.vim tagged/fruit.vim": {
+        "tagged/fruit.vim": "output-5c77144b2543988a0cad4e3270b82b9c"
+    }, 
+    "./scripts/tag patched/fruity.vim tagged/fruity.vim": {
+        "patched/fruity.vim": "input-7a1f127efdeeaed7936ff9160df614c8", 
+        "tagged/fruity.vim": "output-e911ab2ee9d7f7579b736f79eae0515d"
+    }, 
+    "./scripts/tag patched/golden.vim tagged/golden.vim": {
+        "tagged/golden.vim": "output-89e7ddb67426a5d5a1b5d06c1d99491a"
+    }, 
+    "./scripts/tag patched/guardian.vim tagged/guardian.vim": {
+        "patched/guardian.vim": "input-3efd254f2347d47d3659b4a3cbaf29ff", 
+        "tagged/guardian.vim": "output-603df81364b4682ee27f551a7af8b802"
+    }, 
+    "./scripts/tag patched/habiLight.vim tagged/habiLight.vim": {
+        "tagged/habiLight.vim": "output-fa2ad8b68728e50b65ac44784709df8a"
+    }, 
+    "./scripts/tag patched/herald.vim tagged/herald.vim": {
+        "tagged/herald.vim": "output-e0a893eebf3ef39a9f0af730b0b3b3ac"
+    }, 
+    "./scripts/tag patched/inkpot.vim tagged/inkpot.vim": {
+        "patched/inkpot.vim": "input-7ef0c711ee378218831e4f81f7b12e85", 
+        "tagged/inkpot.vim": "output-ee102f393c3e0655cc1e067332ff9cd1"
+    }, 
+    "./scripts/tag patched/ir_black.vim tagged/ir_black.vim": {
+        "tagged/ir_black.vim": "output-d6ee558a17e24e8f13e18d1cd81d817f"
+    }, 
+    "./scripts/tag patched/ironman.vim tagged/ironman.vim": {
+        "tagged/ironman.vim": "output-1a933993c2f7b8aaa85925113c01d1d8"
+    }, 
+    "./scripts/tag patched/jammy.vim tagged/jammy.vim": {
+        "patched/jammy.vim": "input-5cbfdb825164a03033c0269d9499005e", 
+        "tagged/jammy.vim": "output-0d51dee59a0547a1514d66e41b21b492"
+    }, 
+    "./scripts/tag patched/jellybeans.vim tagged/jellybeans.vim": {
+        "tagged/jellybeans.vim": "output-e3c0b547b753335f174f36ab1e259a0c"
+    }, 
+    "./scripts/tag patched/kellys.vim tagged/kellys.vim": {
+        "tagged/kellys.vim": "output-684611846f4ec35368c87ceb9583b749"
+    }, 
+    "./scripts/tag patched/leo.vim tagged/leo.vim": {
+        "tagged/leo.vim": "output-0d7c0f4e6b92e9fd422fad084ed0bc6e"
+    }, 
+    "./scripts/tag patched/lettuce.vim tagged/lettuce.vim": {
+        "tagged/lettuce.vim": "output-cdcda1af64971bfda0f89629977a46d5"
+    }, 
+    "./scripts/tag patched/lucius.vim tagged/lucius.vim": {
+        "tagged/lucius.vim": "output-121e88f554dc7a84870762090781b312"
+    }, 
+    "./scripts/tag patched/manxome.vim tagged/manxome.vim": {
+        "patched/manxome.vim": "input-81743a195d34752d705ae5ccbdd9d1a9", 
+        "tagged/manxome.vim": "output-af1b057ab4c76d7b45b33cb6b1e43754"
+    }, 
+    "./scripts/tag patched/maroloccio.vim tagged/maroloccio.vim": {
+        "tagged/maroloccio.vim": "output-1e8a007bf91c2ab6b6e49ffdbb985329"
+    }, 
+    "./scripts/tag patched/martin_krischik.vim tagged/martin_krischik.vim": {
+        "tagged/martin_krischik.vim": "output-9774f04fec86fa71ab2ccc1bd142d711"
+    }, 
+    "./scripts/tag patched/matrix.vim tagged/matrix.vim": {
+        "tagged/matrix.vim": "output-d3e98aa7b80c928efe2964f66ab859ef"
+    }, 
+    "./scripts/tag patched/molokai.vim tagged/molokai.vim": {
+        "tagged/molokai.vim": "output-5c4e3f08ecc3493de4189eb79ef62aae"
+    }, 
+    "./scripts/tag patched/moria.vim tagged/moria.vim": {
+        "patched/moria.vim": "input-2f9beaa72f495b4a13b53c8223836ebd", 
+        "tagged/moria.vim": "output-31e50face7e20352fae60097c65d5b1a"
+    }, 
+    "./scripts/tag patched/moss.vim tagged/moss.vim": {
+        "patched/moss.vim": "input-39c067f00afd3aa256ff12afceac2f54", 
+        "tagged/moss.vim": "output-b21a1adeaeac364f2b61d3216ede2bd8"
+    }, 
+    "./scripts/tag patched/motus.vim tagged/motus.vim": {
+        "patched/motus.vim": "input-bd36ca51064a0ba9a0b9ec293ed1e954", 
+        "tagged/motus.vim": "output-ef791a753bed7b6fa2ff14d8acf57f85"
+    }, 
+    "./scripts/tag patched/mustang.vim tagged/mustang.vim": {
+        "tagged/mustang.vim": "output-ac721554835d317ee78bf3df5d7b6d7f"
+    }, 
+    "./scripts/tag patched/navajo-night.vim tagged/navajo-night.vim": {
+        "tagged/navajo-night.vim": "output-424cc3ac4d63ea493b56b87e2ac53100"
+    }, 
+    "./scripts/tag patched/navajo.vim tagged/navajo.vim": {
+        "tagged/navajo.vim": "output-60b3eb93767723ca9bb88dd4fbd08ed5"
+    }, 
+    "./scripts/tag patched/neon.vim tagged/neon.vim": {
+        "patched/neon.vim": "input-86f6445de9492fff0ff5c657faf40840", 
+        "tagged/neon.vim": "output-33949bb10adad38ab06fbebf717ed1bf"
+    }, 
+    "./scripts/tag patched/neverness.vim tagged/neverness.vim": {
+        "tagged/neverness.vim": "output-f641472a01f025ee45ec9cc70265a529"
+    }, 
+    "./scripts/tag patched/night.vim tagged/night.vim": {
+        "tagged/night.vim": "output-e6b073d8c14ce354028757d3bde6714c"
+    }, 
+    "./scripts/tag patched/nightshimmer.vim tagged/nightshimmer.vim": {
+        "patched/nightshimmer.vim": "input-e5e240bd5925e7675c5207c118908c3a", 
+        "tagged/nightshimmer.vim": "output-e29d5f7706b771a3d1ff99dd351f569e"
+    }, 
+    "./scripts/tag patched/no_quarter.vim tagged/no_quarter.vim": {
+        "tagged/no_quarter.vim": "output-c31e1e58923ed0050c6dfe01fb763624"
+    }, 
+    "./scripts/tag patched/northland.vim tagged/northland.vim": {
+        "tagged/northland.vim": "output-8e64337fb27ffb4bd066c8c2ac6ea3ae"
+    }, 
+    "./scripts/tag patched/nuvola.vim tagged/nuvola.vim": {
+        "tagged/nuvola.vim": "output-44f17eb9148aa17c3baa50270111c634"
+    }, 
+    "./scripts/tag patched/oceanblack.vim tagged/oceanblack.vim": {
+        "tagged/oceanblack.vim": "output-efc20240c144519f086a62a4399b6abc"
+    }, 
+    "./scripts/tag patched/oceandeep.vim tagged/oceandeep.vim": {
+        "tagged/oceandeep.vim": "output-81fd2e6802b45285ff8045109a01bea0"
+    }, 
+    "./scripts/tag patched/oceanlight.vim tagged/oceanlight.vim": {
+        "tagged/oceanlight.vim": "output-388eab5d72fa1db0f2e4d6f3ba55210e"
+    }, 
+    "./scripts/tag patched/olive.vim tagged/olive.vim": {
+        "tagged/olive.vim": "output-83cbcfd3e79d94b33d1d7430917a552a"
+    }, 
+    "./scripts/tag patched/peaksea.vim tagged/peaksea.vim": {
+        "patched/peaksea.vim": "input-d2be0d5ec86c03f721ab23b2fc398ad8", 
+        "tagged/peaksea.vim": "output-e7aece97bf352176fd779156f9b06f90"
+    }, 
+    "./scripts/tag patched/print_bw.vim tagged/print_bw.vim": {
+        "tagged/print_bw.vim": "output-dfbfc6834fa5dbec2012f18bfcfecd09"
+    }, 
+    "./scripts/tag patched/pyte.vim tagged/pyte.vim": {
+        "tagged/pyte.vim": "output-79e71714fafa4b4ff33181060a61250a"
+    }, 
+    "./scripts/tag patched/railscasts.vim tagged/railscasts.vim": {
+        "tagged/railscasts.vim": "output-9b85bfe56124abbd993bb5989928cf3e"
+    }, 
+    "./scripts/tag patched/rdark.vim tagged/rdark.vim": {
+        "tagged/rdark.vim": "output-169bc4d9f1ca3a1a0bc2fb79c57eb585"
+    }, 
+    "./scripts/tag patched/relaxedgreen.vim tagged/relaxedgreen.vim": {
+        "patched/relaxedgreen.vim": "input-1730d0594ae37307a38216b1606e3566", 
+        "tagged/relaxedgreen.vim": "output-33a761233bec1a39045584d7c2b208c6"
+    }, 
+    "./scripts/tag patched/robinhood.vim tagged/robinhood.vim": {
+        "tagged/robinhood.vim": "output-0ddd031f7d0405cc7e05d21993e4913e"
+    }, 
+    "./scripts/tag patched/rootwater.vim tagged/rootwater.vim": {
+        "tagged/rootwater.vim": "output-bb4a7c7dad1bc8c4ee23c626f9f8c3a8"
+    }, 
+    "./scripts/tag patched/satori.vim tagged/satori.vim": {
+        "tagged/satori.vim": "output-7b54bdaa32c10a863167540f1f6c0f92"
+    }, 
+    "./scripts/tag patched/sea.vim tagged/sea.vim": {
+        "tagged/sea.vim": "output-1bbdb4651cc7457f7d7bb7fa5478d943"
+    }, 
+    "./scripts/tag patched/settlemyer.vim tagged/settlemyer.vim": {
+        "tagged/settlemyer.vim": "output-1e3b63983033d240744bd4518e3bde2a"
+    }, 
+    "./scripts/tag patched/sienna.vim tagged/sienna.vim": {
+        "patched/sienna.vim": "input-1fd48966ad64be0a32a81b1018bf94c5", 
+        "tagged/sienna.vim": "output-d44de93a1deafa1219e5f9d882132623"
+    }, 
+    "./scripts/tag patched/silent.vim tagged/silent.vim": {
+        "tagged/silent.vim": "output-6775a35acea589c58729d26bbb1a1441"
+    }, 
+    "./scripts/tag patched/simpleandfriendly.vim tagged/simpleandfriendly.vim": {
+        "tagged/simpleandfriendly.vim": "output-6246e7aeda374b5390673c0de7460849"
+    }, 
+    "./scripts/tag patched/softblue.vim tagged/softblue.vim": {
+        "tagged/softblue.vim": "output-fba09bef7c59c21ae50c2fe56ac3bbe9"
+    }, 
+    "./scripts/tag patched/soso.vim tagged/soso.vim": {
+        "tagged/soso.vim": "output-811b6c0e4531d4c9e72340382fa0f180"
+    }, 
+    "./scripts/tag patched/spring.vim tagged/spring.vim": {
+        "tagged/spring.vim": "output-3b317114670013cb09201b8511b7229a"
+    }, 
+    "./scripts/tag patched/summerfruit256.vim tagged/summerfruit256.vim": {
+        "tagged/summerfruit256.vim": "output-3675f537e7d4a53b2e9541093aaca1d5"
+    }, 
+    "./scripts/tag patched/synic.vim tagged/synic.vim": {
+        "tagged/synic.vim": "output-b53b808c11b149ffe2645cf8a8c77402"
+    }, 
+    "./scripts/tag patched/tabula.vim tagged/tabula.vim": {
+        "tagged/tabula.vim": "output-47d64f77de905619b246b530aa9595fc"
+    }, 
+    "./scripts/tag patched/tango.vim tagged/tango.vim": {
+        "tagged/tango.vim": "output-824c7aa7e18701cbf1191cfc6e7c7af6"
+    }, 
+    "./scripts/tag patched/tango2.vim tagged/tango2.vim": {
+        "tagged/tango2.vim": "output-ab78622c9487fc9083becadae669f275"
+    }, 
+    "./scripts/tag patched/taqua.vim tagged/taqua.vim": {
+        "tagged/taqua.vim": "output-58b909cb11bbfb05c416b4fae2c000c7"
+    }, 
+    "./scripts/tag patched/tcsoft.vim tagged/tcsoft.vim": {
+        "tagged/tcsoft.vim": "output-d66d9425cc4c3afda758f32483f8a0cb"
+    }, 
+    "./scripts/tag patched/tir_black.vim tagged/tir_black.vim": {
+        "tagged/tir_black.vim": "output-8fe3db04470063e42fa84ff970ca60f1"
+    }, 
+    "./scripts/tag patched/tolerable.vim tagged/tolerable.vim": {
+        "tagged/tolerable.vim": "output-12474be9cd3ec3f565b5432987f16b5d"
+    }, 
+    "./scripts/tag patched/torte.vim tagged/torte.vim": {
+        "tagged/torte.vim": "output-18f0dc6c65e4d9b1b5d666f5a69c026e"
+    }, 
+    "./scripts/tag patched/vc.vim tagged/vc.vim": {
+        "tagged/vc.vim": "output-87f750960d7316dfce24a332d380ce11"
+    }, 
+    "./scripts/tag patched/vibrantink.vim tagged/vibrantink.vim": {
+        "tagged/vibrantink.vim": "output-a9889d7112da884084c03b6f53d42020"
+    }, 
+    "./scripts/tag patched/vividchalk.vim tagged/vividchalk.vim": {
+        "tagged/vividchalk.vim": "output-5eec32f39a94aeff4ffcfe6049cd7215"
+    }, 
+    "./scripts/tag patched/vylight.vim tagged/vylight.vim": {
+        "tagged/vylight.vim": "output-0f7c59b47e1cae66a69d8f92ee9f7590"
+    }, 
+    "./scripts/tag patched/winter.vim tagged/winter.vim": {
+        "tagged/winter.vim": "output-1feb5521687ceb3a17cbdfe789dbd6e3"
+    }, 
+    "./scripts/tag patched/wombat.vim tagged/wombat.vim": {
+        "patched/wombat.vim": "input-60265778fd09fb439baa2643e1e8bc4e", 
+        "tagged/wombat.vim": "output-9381e9fb4b1f89fae0a211e423a47f36"
+    }, 
+    "./scripts/tag patched/wombat256.vim tagged/wombat256.vim": {
+        "tagged/wombat256.vim": "output-7b85720e59b629347e447b6ca4e064e1"
+    }, 
+    "./scripts/tag patched/wood.vim tagged/wood.vim": {
+        "tagged/wood.vim": "output-979b436007c801dbf021dbec630e0a2c"
+    }, 
+    "./scripts/tag patched/wuye.vim tagged/wuye.vim": {
+        "tagged/wuye.vim": "output-536d9adcba362db11f9771fc73a4872e"
+    }, 
+    "./scripts/tag patched/xemacs.vim tagged/xemacs.vim": {
+        "tagged/xemacs.vim": "output-7fd98a3660ebe92605451d711f6a5195"
+    }, 
+    "./scripts/tag patched/xoria256.vim tagged/xoria256.vim": {
+        "tagged/xoria256.vim": "output-671ba61196bce4734ec39e6382893830"
+    }, 
+    "./scripts/tag patched/zenburn.vim tagged/zenburn.vim": {
+        "patched/zenburn.vim": "input-f20b516e50352c37a7ee0e4fcc39d838", 
+        "tagged/zenburn.vim": "output-d0c1fe156e1e6dc5d09c2171a044004b"
+    }, 
+    "./scripts/tag patched/zmrok.vim tagged/zmrok.vim": {
+        "tagged/zmrok.vim": "output-baed87704fdb5975049fe717cbfad217"
+    }, 
+    ".deps_version": 2, 
+    "cp tagged/calmar256-dark.vim runtime/colors/": {
+        "runtime/colors/calmar256-dark.vim": "output-108efeb4cc457e5777b9eaab2d98de91"
+    }, 
+    "cp tagged/calmar256-light.vim runtime/colors/": {
+        "runtime/colors/calmar256-light.vim": "output-edc04673021ec5d98c0e61e54ff59e90"
+    }, 
+    "cp tagged/desert256.vim runtime/colors/": {
+        "runtime/colors/desert256.vim": "output-2a0000ac7948236a47708f50e4df24a2"
+    }, 
+    "cp tagged/jellybeans.vim runtime/colors/": {
+        "runtime/colors/jellybeans.vim": "output-e3c0b547b753335f174f36ab1e259a0c"
+    }, 
+    "cp tagged/lettuce.vim runtime/colors/": {
+        "runtime/colors/lettuce.vim": "output-cdcda1af64971bfda0f89629977a46d5"
+    }, 
+    "cp tagged/summerfruit256.vim runtime/colors/": {
+        "runtime/colors/summerfruit256.vim": "output-3675f537e7d4a53b2e9541093aaca1d5"
+    }, 
+    "cp tagged/wombat256.vim runtime/colors/": {
+        "runtime/colors/wombat256.vim": "output-7b85720e59b629347e447b6ca4e064e1"
+    }, 
+    "patch -p0 -o patched/BlackSea.vim originals/BlackSea.vim patches/BlackSea.vim.diff": {
+        "originals/BlackSea.vim": "input-bc42dcf9aba4e3cdec5466e63bd6da2a", 
+        "patched/BlackSea.vim": "output-7fcadb79e7f8f3bac0c99d5307c89607", 
+        "patches/BlackSea.vim.diff": "input-5628f021d656f6ce983ceb019ad17437"
+    }, 
+    "patch -p0 -o patched/ChocolateLiquor.vim originals/ChocolateLiquor.vim patches/ChocolateLiquor.vim.diff": {
+        "originals/ChocolateLiquor.vim": "input-196a87ee9f70bb4180103548468c217c", 
+        "patched/ChocolateLiquor.vim": "output-89762859302e937f3e459b5b1949d93f", 
+        "patches/ChocolateLiquor.vim.diff": "input-af96d741fa2e4e837ec405b689c9e137"
+    }, 
+    "patch -p0 -o patched/PapayaWhip.vim originals/PapayaWhip.vim patches/PapayaWhip.vim.diff": {
+        "originals/PapayaWhip.vim": "input-04750e9604725b2378ca2bbec1d952d6", 
+        "patched/PapayaWhip.vim": "output-253e1fc74aed723bd3c935f492b9deea", 
+        "patches/PapayaWhip.vim.diff": "input-b66798630b72feff38fb9624140886c7"
+    }, 
+    "patch -p0 -o patched/adaryn.vim originals/adaryn.vim patches/adaryn.vim.diff": {
+        "originals/adaryn.vim": "input-f49c2375fdcd37797ab379cfb8359441", 
+        "patched/adaryn.vim": "output-83e3367cb6f64b378db3795266d75d9e", 
+        "patches/adaryn.vim.diff": "input-39e27c84fac6bd78dae199a8d76b22ab"
+    }, 
+    "patch -p0 -o patched/adrian.vim originals/adrian.vim patches/adrian.vim.diff": {
+        "originals/adrian.vim": "input-3761ff99bd6bf62baeaf3136b3b5c54d", 
+        "patched/adrian.vim": "output-d01e492b3bf3fffbd79141c3cc01c67b", 
+        "patches/adrian.vim.diff": "input-b7a26322cc524858f40ebb4b436aaed1"
+    }, 
+    "patch -p0 -o patched/aiseered.vim originals/aiseered.vim patches/aiseered.vim.diff": {
+        "originals/aiseered.vim": "input-17e22f6aef0c3f5368410dbc9b1eff13", 
+        "patched/aiseered.vim": "output-373da02fe759bfbab4944c2aceb293db", 
+        "patches/aiseered.vim.diff": "input-34e9104cadba0ff671c9083c9de03fb0"
+    }, 
+    "patch -p0 -o patched/anotherdark.vim originals/anotherdark.vim patches/anotherdark.vim.diff": {
+        "originals/anotherdark.vim": "input-6b97847be72b55e52432da88ea138f4c", 
+        "patched/anotherdark.vim": "output-fc4ba1813f1084cfc95eec6b469d01f1", 
+        "patches/anotherdark.vim.diff": "input-a704181a95cbf76ce11045ccb94a4fa7"
+    }, 
+    "patch -p0 -o patched/aqua.vim originals/aqua.vim patches/aqua.vim.diff": {
+        "originals/aqua.vim": "input-36a9ccc5b0626c034bde903df2d533a8", 
+        "patched/aqua.vim": "output-d705925a30a16279e8f16a0e905639d5", 
+        "patches/aqua.vim.diff": "input-7e3136fc374b5330920ed6b99ebb455e"
+    }, 
+    "patch -p0 -o patched/asu1dark.vim originals/asu1dark.vim patches/asu1dark.vim.diff": {
+        "originals/asu1dark.vim": "input-accb1eb3cb9a96834c95e6912e2f58fd", 
+        "patched/asu1dark.vim": "output-7abbe37e3d1590ef2134e836befc0a83", 
+        "patches/asu1dark.vim.diff": "input-73d3f03acf083520501ef0859cf3c35d"
+    }, 
+    "patch -p0 -o patched/autumn.vim originals/autumn.vim patches/autumn.vim.diff": {
+        "originals/autumn.vim": "input-6e1c9294ad83a59b6dc97c8f2b169563", 
+        "patched/autumn.vim": "output-689dd023114873f95f2e81cdd4867e7d", 
+        "patches/autumn.vim.diff": "input-0044cce7795def43055e728be44ec04a"
+    }, 
+    "patch -p0 -o patched/autumn2.vim originals/autumn2.vim patches/autumn2.vim.diff": {
+        "originals/autumn2.vim": "input-5b54453dd8e436ded7ae296523b8d28a", 
+        "patched/autumn2.vim": "output-4613a7759eacc1cb05d652a2a87371f4", 
+        "patches/autumn2.vim.diff": "input-5ebb6cdb9130cebc1fb599c5a4b3ebd8"
+    }, 
+    "patch -p0 -o patched/autumnleaf.vim originals/autumnleaf.vim patches/autumnleaf.vim.diff": {
+        "originals/autumnleaf.vim": "input-dbca87be0fda206742dadd60bea82fb1", 
+        "patched/autumnleaf.vim": "output-b066dbbbfae008fa1a80857ab23bbb1c", 
+        "patches/autumnleaf.vim.diff": "input-f16a5f7611efd0f7713017271e7b52d6"
+    }, 
+    "patch -p0 -o patched/baycomb.vim originals/baycomb.vim patches/baycomb.vim.diff": {
+        "originals/baycomb.vim": "input-395b1c6ada00c9e40d2acdaef5a5b62f", 
+        "patched/baycomb.vim": "output-75178e8fa35c361ab1d8d606c1335e70", 
+        "patches/baycomb.vim.diff": "input-1f51b663cc5bd3be75da5168d9c8fcc2"
+    }, 
+    "patch -p0 -o patched/bclear.vim originals/bclear.vim patches/bclear.vim.diff": {
+        "originals/bclear.vim": "input-b6d2f589c0a1aa0d21a3c344b4713376", 
+        "patched/bclear.vim": "output-dc35f987a1034e695c14beb3c99c898c", 
+        "patches/bclear.vim.diff": "input-8945272196e53790449860bd9104db12"
+    }, 
+    "patch -p0 -o patched/biogoo.vim originals/biogoo.vim patches/biogoo.vim.diff": {
+        "originals/biogoo.vim": "input-1c52a3c2c36b7500a2dbce14b9e910bc", 
+        "patched/biogoo.vim": "output-ada61925279069e56cb2db86b30f722f", 
+        "patches/biogoo.vim.diff": "input-3799906122e4ee0e31c42487e4417b46"
+    }, 
+    "patch -p0 -o patched/bluegreen.vim originals/bluegreen.vim patches/bluegreen.vim.diff": {
+        "originals/bluegreen.vim": "input-a029b3b9b24fa25aeae70e1923545ace", 
+        "patched/bluegreen.vim": "output-489956f662f2e42ec4e10917edcbd1ab", 
+        "patches/bluegreen.vim.diff": "input-908611dbf05f8720a6a7fae80a6c9967"
+    }, 
+    "patch -p0 -o patched/borland.vim originals/borland.vim patches/borland.vim.diff": {
+        "originals/borland.vim": "input-098528fe67ed8e54956883bf4982b793", 
+        "patched/borland.vim": "output-a05ff7970d66af0b2b5f645122a1694b", 
+        "patches/borland.vim.diff": "input-b54b40f879c6e96457fadf36f33c6f26"
+    }, 
+    "patch -p0 -o patched/breeze.vim originals/breeze.vim patches/breeze.vim.diff": {
+        "originals/breeze.vim": "input-4a5bc96b195af30aa2aa967f0da5df23", 
+        "patched/breeze.vim": "output-5829d9a3b2dcfcff2c0ed1a3013f11a1", 
+        "patches/breeze.vim.diff": "input-4c88670229972b46035f0305a2a29ecf"
+    }, 
+    "patch -p0 -o patched/brookstream.vim originals/brookstream.vim patches/brookstream.vim.diff": {
+        "originals/brookstream.vim": "input-23187d333c05b4b2115e788c2aa89d9b", 
+        "patched/brookstream.vim": "output-372d66caf81ce3032679fa6907557ac4", 
+        "patches/brookstream.vim.diff": "input-fc34ace1c4538d4a2b1af4309c180714"
+    }, 
+    "patch -p0 -o patched/buttercream.vim originals/buttercream.vim patches/buttercream.vim.diff": {
+        "originals/buttercream.vim": "input-71a5c9a002c07d251bafd8e931285888", 
+        "patched/buttercream.vim": "output-e2c25786b544055690b029c92451abe3", 
+        "patches/buttercream.vim.diff": "input-4a17076a7daa643787a2857a8dd14f71"
+    }, 
+    "patch -p0 -o patched/calmar256-dark.vim originals/calmar256-dark.vim patches/calmar256-dark.vim.diff": {
+        "originals/calmar256-dark.vim": "input-d873082df892e5f593340f52d3d54f84", 
+        "patched/calmar256-dark.vim": "output-31396b7eb2a07a72117dfde25cfcc338", 
+        "patches/calmar256-dark.vim.diff": "input-3364c6f566f5f198d075115896a7e345"
+    }, 
+    "patch -p0 -o patched/calmar256-light.vim originals/calmar256-light.vim patches/calmar256-light.vim.diff": {
+        "originals/calmar256-light.vim": "input-4efda54871e83612b89aba6dc310f57a", 
+        "patched/calmar256-light.vim": "output-5530f1160a345f929852d9f6c2b69a81", 
+        "patches/calmar256-light.vim.diff": "input-a3d21d93cd7c576e6099329f61fa73a8"
+    }, 
+    "patch -p0 -o patched/camo.vim originals/camo.vim patches/camo.vim.diff": {
+        "originals/camo.vim": "input-0b30d229d6a1272e4a93f580e77573d2", 
+        "patched/camo.vim": "output-d0c0d4e2d73469761fc5add566527a3b", 
+        "patches/camo.vim.diff": "input-39f6be1abda5cb2cc60fffb73ea09562"
+    }, 
+    "patch -p0 -o patched/candy.vim originals/candy.vim patches/candy.vim.diff": {
+        "originals/candy.vim": "input-4740380b1c043b1b7d98bd3ce1b6e75d", 
+        "patched/candy.vim": "output-43e149bad1fdce6ebfb9ff2b78b2c6b4", 
+        "patches/candy.vim.diff": "input-ef822c7428762befc2bd180080e94832"
+    }, 
+    "patch -p0 -o patched/candycode.vim originals/candycode.vim patches/candycode.vim.diff": {
+        "originals/candycode.vim": "input-8b115e7b2ed03eb949c9c0b2cf049012", 
+        "patched/candycode.vim": "output-71c117da2da00f86751bc8ade83093c0", 
+        "patches/candycode.vim.diff": "input-7cdfb253e38ae11362d3c11734585830"
+    }, 
+    "patch -p0 -o patched/chela_light.vim originals/chela_light.vim patches/chela_light.vim.diff": {
+        "originals/chela_light.vim": "input-e49560d46802660770077711c0bf4829", 
+        "patched/chela_light.vim": "output-7c5a9eec0656174012583469c2dcb493", 
+        "patches/chela_light.vim.diff": "input-75b21c32fe899e021d89a46fd2ce66a6"
+    }, 
+    "patch -p0 -o patched/clarity.vim originals/clarity.vim patches/clarity.vim.diff": {
+        "originals/clarity.vim": "input-b3ddeb071048b6f75aafb52563516528", 
+        "patched/clarity.vim": "output-d150c9fb1642c80e88e377feb934d4c5", 
+        "patches/clarity.vim.diff": "input-e3f967871b298240bd3fdcb911a8966f"
+    }, 
+    "patch -p0 -o patched/cleanphp.vim originals/cleanphp.vim patches/cleanphp.vim.diff": {
+        "originals/cleanphp.vim": "input-ef7fc6e6ffb6955bcaf82dc95010c6bb", 
+        "patched/cleanphp.vim": "output-b2f6535f49f7dd352708fb389d6620eb", 
+        "patches/cleanphp.vim.diff": "input-6d6b826f448ef174a16c7254663728e6"
+    }, 
+    "patch -p0 -o patched/colorer.vim originals/colorer.vim patches/colorer.vim.diff": {
+        "originals/colorer.vim": "input-932061549c0e13e9a0e84ef2c7e70d7b", 
+        "patched/colorer.vim": "output-2ad5f5cb63cabe3d841e733fa5436dda", 
+        "patches/colorer.vim.diff": "input-ad2cf9eeffec8d099c4ba078be5d1f8e"
+    }, 
+    "patch -p0 -o patched/dante.vim originals/dante.vim patches/dante.vim.diff": {
+        "originals/dante.vim": "input-4607c23dc77b5077b48937b65222e672", 
+        "patched/dante.vim": "output-c21bde744ec6d077e6c6856832ef20d2", 
+        "patches/dante.vim.diff": "input-82944716044d6314c633f1f256224cc1"
+    }, 
+    "patch -p0 -o patched/darkZ.vim originals/darkZ.vim patches/darkZ.vim.diff": {
+        "originals/darkZ.vim": "input-31be8d03171de6771a5a2fc2b6a5a7c3", 
+        "patched/darkZ.vim": "output-8bf516c800a617eac3ffc56077a25c49", 
+        "patches/darkZ.vim.diff": "input-aa90188d53143a9c640e823c96c9972b"
+    }, 
+    "patch -p0 -o patched/darkblue2.vim originals/darkblue2.vim patches/darkblue2.vim.diff": {
+        "originals/darkblue2.vim": "input-f8f4d4e8942f716a18ec06792b760eae", 
+        "patched/darkblue2.vim": "output-f5b65e9f6b92ba3a6ef982805246a72c", 
+        "patches/darkblue2.vim.diff": "input-604261b1653a3e6d720d4b879d10bb68"
+    }, 
+    "patch -p0 -o patched/darkbone.vim originals/darkbone.vim patches/darkbone.vim.diff": {
+        "originals/darkbone.vim": "input-e7d774273cacba94cf4b57d1707197af", 
+        "patched/darkbone.vim": "output-6b3da956db6745acb2b71e9261b868ea", 
+        "patches/darkbone.vim.diff": "input-90359db6e0048342aed9f91fa249055c"
+    }, 
+    "patch -p0 -o patched/darkslategray.vim originals/darkslategray.vim patches/darkslategray.vim.diff": {
+        "originals/darkslategray.vim": "input-f3dae9cec6573919738b7d7e788c7de9", 
+        "patched/darkslategray.vim": "output-9a10af386262724b2a5173c5ca883aa7", 
+        "patches/darkslategray.vim.diff": "input-92fc167c2a7a291a37e604371ef6c630"
+    }, 
+    "patch -p0 -o patched/darkspectrum.vim originals/darkspectrum.vim patches/darkspectrum.vim.diff": {
+        "originals/darkspectrum.vim": "input-2e2014ee0e5ffe76214de188f23fca02", 
+        "patched/darkspectrum.vim": "output-b29c2e0cab3f26f9f14eddb777540add", 
+        "patches/darkspectrum.vim.diff": "input-fc2b7c9ccd06fb32539d0b182cea3f4b"
+    }, 
+    "patch -p0 -o patched/dawn.vim originals/dawn.vim patches/dawn.vim.diff": {
+        "originals/dawn.vim": "input-11ee17638f0876079a1da2545612c45c", 
+        "patched/dawn.vim": "output-c9c920def01ee57af7a5dd2c92ec4db8", 
+        "patches/dawn.vim.diff": "input-f1b6f03b402449bed78799b9ac27d842"
+    }, 
+    "patch -p0 -o patched/denim.vim originals/denim.vim patches/denim.vim.diff": {
+        "originals/denim.vim": "input-8037d15b11ac94c9343d1bdf75b59697", 
+        "patched/denim.vim": "output-a7ea7da912a9c6b6c920effe8a79dbf0", 
+        "patches/denim.vim.diff": "input-6277ccb901d377927207b0afbf6b1817"
+    }, 
+    "patch -p0 -o patched/desert256.vim originals/desert256.vim patches/desert256.vim.diff": {
+        "originals/desert256.vim": "input-e49066598760ccbaef55bbb4854ddd1b", 
+        "patched/desert256.vim": "output-20a2d623a40e238ecbfcff39d8689e02", 
+        "patches/desert256.vim.diff": "input-9de46cacb1457bc8dafaaa4c8cf771d5"
+    }, 
+    "patch -p0 -o patched/desertEx.vim originals/desertEx.vim patches/desertEx.vim.diff": {
+        "originals/desertEx.vim": "input-14271d814728aadac5f4b2b09a387e9b", 
+        "patched/desertEx.vim": "output-084a3ea8fa7884334020ef7ec3186d17", 
+        "patches/desertEx.vim.diff": "input-ad7f3916649bc64f662cb07de858de16"
+    }, 
+    "patch -p0 -o patched/dusk.vim originals/dusk.vim patches/dusk.vim.diff": {
+        "originals/dusk.vim": "input-387fac4e738a2a0d9d31da762464a047", 
+        "patched/dusk.vim": "output-433d69617087978e687bf169270f4fb8", 
+        "patches/dusk.vim.diff": "input-1867046734758c2885bdd985976e6662"
+    }, 
+    "patch -p0 -o patched/dw_blue.vim originals/dw_blue.vim patches/dw_blue.vim.diff": {
+        "originals/dw_blue.vim": "input-471e4077b9c1bf3430a31724b352ade4", 
+        "patched/dw_blue.vim": "output-62866cdf3000bec80ae356739a0d7446", 
+        "patches/dw_blue.vim.diff": "input-fb4ab66f913c0decde641f2ea879a25a"
+    }, 
+    "patch -p0 -o patched/dw_cyan.vim originals/dw_cyan.vim patches/dw_cyan.vim.diff": {
+        "originals/dw_cyan.vim": "input-b612d81846223a68e4652f36beb50d85", 
+        "patched/dw_cyan.vim": "output-aba5c3f936a097b768b14a66d053adc6", 
+        "patches/dw_cyan.vim.diff": "input-411a4f087b2291642a6a93b42f06cb87"
+    }, 
+    "patch -p0 -o patched/dw_green.vim originals/dw_green.vim patches/dw_green.vim.diff": {
+        "originals/dw_green.vim": "input-e4b58c7a3b50d1499625cfdd8de0ccab", 
+        "patched/dw_green.vim": "output-9419aa002b2f2ec63160562a030587d9", 
+        "patches/dw_green.vim.diff": "input-676d5904d99dde64af14bf3a329afd89"
+    }, 
+    "patch -p0 -o patched/dw_orange.vim originals/dw_orange.vim patches/dw_orange.vim.diff": {
+        "originals/dw_orange.vim": "input-618fb24f55966b78ce6f93682660af0a", 
+        "patched/dw_orange.vim": "output-dfeee81a73b378f38c284f499e92b899", 
+        "patches/dw_orange.vim.diff": "input-134372d116544961c781210e01130196"
+    }, 
+    "patch -p0 -o patched/dw_purple.vim originals/dw_purple.vim patches/dw_purple.vim.diff": {
+        "originals/dw_purple.vim": "input-4808b6df503cca6f1f236d644e91bd2b", 
+        "patched/dw_purple.vim": "output-83ec07de0d2bf61de0225e0312dacc40", 
+        "patches/dw_purple.vim.diff": "input-14fd1b24866958278d20a78258a66361"
+    }, 
+    "patch -p0 -o patched/dw_red.vim originals/dw_red.vim patches/dw_red.vim.diff": {
+        "originals/dw_red.vim": "input-0dfb9212911a3100ff421d581d1ed77b", 
+        "patched/dw_red.vim": "output-4a74bb3885b86a503a8e4d2e2215556f", 
+        "patches/dw_red.vim.diff": "input-aeee6154f6b842eef70014c339ff1e3a"
+    }, 
+    "patch -p0 -o patched/dw_yellow.vim originals/dw_yellow.vim patches/dw_yellow.vim.diff": {
+        "originals/dw_yellow.vim": "input-55ee1c1ddfaf89e942ec37f6d71edec7", 
+        "patched/dw_yellow.vim": "output-72a9ca2ff42e0a1026c53943632b8732", 
+        "patches/dw_yellow.vim.diff": "input-73100b8a29ed14daa906ac209d8748e0"
+    }, 
+    "patch -p0 -o patched/earendel.vim originals/earendel.vim patches/earendel.vim.diff": {
+        "originals/earendel.vim": "input-b34c826c7b332be27334404253760b8d", 
+        "patched/earendel.vim": "output-a3160c2cc2c3cfec33ad3a922eddb08e", 
+        "patches/earendel.vim.diff": "input-9205abd1d962de2d71a19520b476b2eb"
+    }, 
+    "patch -p0 -o patched/eclipse.vim originals/eclipse.vim patches/eclipse.vim.diff": {
+        "originals/eclipse.vim": "input-5d1360ae450a16fc2e353f2d337c68d6", 
+        "patched/eclipse.vim": "output-ada0de9a68765062561bd7bb5deba232", 
+        "patches/eclipse.vim.diff": "input-b2e2319488dbb5300be6c174b8650807"
+    }, 
+    "patch -p0 -o patched/ekvoli.vim originals/ekvoli.vim patches/ekvoli.vim.diff": {
+        "originals/ekvoli.vim": "input-80d9ada39c39704ad20deb9b26146096", 
+        "patched/ekvoli.vim": "output-e6cc385c50e606d8022c33d9459bea71", 
+        "patches/ekvoli.vim.diff": "input-ed5add2e4448f08a95b41713dbd8d55b"
+    }, 
+    "patch -p0 -o patched/fine_blue.vim originals/fine_blue.vim patches/fine_blue.vim.diff": {
+        "originals/fine_blue.vim": "input-b33e548d99e833566d56146378e52bad", 
+        "patched/fine_blue.vim": "output-08ef706b0e1958b05dc70b4e4d4bda6f", 
+        "patches/fine_blue.vim.diff": "input-184ed7c6602161a1076303b8d9b8968f"
+    }, 
+    "patch -p0 -o patched/fnaqevan.vim originals/fnaqevan.vim patches/fnaqevan.vim.diff": {
+        "originals/fnaqevan.vim": "input-d1ecf77e56dc98d43d06519ead0f9f5d", 
+        "patched/fnaqevan.vim": "output-1de863962403f861065bd4d4c12a9543", 
+        "patches/fnaqevan.vim.diff": "input-b69b9019d5ff51eda4d8797c7e7a3027"
+    }, 
+    "patch -p0 -o patched/fog.vim originals/fog.vim patches/fog.vim.diff": {
+        "originals/fog.vim": "input-603178098d30ee35b988728fff5ecd49", 
+        "patched/fog.vim": "output-a034a8d28646207ccc9e619f7715e176", 
+        "patches/fog.vim.diff": "input-b60a6d1bc8daee4162b4808bc5192c7f"
+    }, 
+    "patch -p0 -o patched/freya.vim originals/freya.vim patches/freya.vim.diff": {
+        "originals/freya.vim": "input-1f15999a8a87f615bca6f68e63ae96cd", 
+        "patched/freya.vim": "output-350fb3123f0559a8d86c4dfa39551fd6", 
+        "patches/freya.vim.diff": "input-eb557d932ce7e56208d4f90eb9ee59c1"
+    }, 
+    "patch -p0 -o patched/fruit.vim originals/fruit.vim patches/fruit.vim.diff": {
+        "originals/fruit.vim": "input-9bf9474c21de82b6b318ca136110e96f", 
+        "patched/fruit.vim": "output-0ef59aaffcde18df458e347fcf95b22b", 
+        "patches/fruit.vim.diff": "input-2d8e760f79e62cc5189fe1e9235da1bc"
+    }, 
+    "patch -p0 -o patched/fruity.vim originals/fruity.vim patches/fruity.vim.diff": {
+        "originals/fruity.vim": "input-63b9e533388463a596eea332c5d58641", 
+        "patched/fruity.vim": "output-7a1f127efdeeaed7936ff9160df614c8", 
+        "patches/fruity.vim.diff": "input-7350f89610086a0036f688104999dd0f"
+    }, 
+    "patch -p0 -o patched/golden.vim originals/golden.vim patches/golden.vim.diff": {
+        "originals/golden.vim": "input-95cf28ee5ff87e4abc5d4e8731b15901", 
+        "patched/golden.vim": "output-0c48c606e7b6ca60a30a2a8888d3f97e", 
+        "patches/golden.vim.diff": "input-fb3aed9fbd34fa2e8764a7d4449dc3b9"
+    }, 
+    "patch -p0 -o patched/guardian.vim originals/guardian.vim patches/guardian.vim.diff": {
+        "originals/guardian.vim": "input-e8bfa7694e4cc7a26f89262fbada5118", 
+        "patched/guardian.vim": "output-3efd254f2347d47d3659b4a3cbaf29ff", 
+        "patches/guardian.vim.diff": "input-6afc66198fbc2eea878d6e69a74eba81"
+    }, 
+    "patch -p0 -o patched/habiLight.vim originals/habiLight.vim patches/habiLight.vim.diff": {
+        "originals/habiLight.vim": "input-26d29df3ed41d71672213033151a5fae", 
+        "patched/habiLight.vim": "output-4d37d19a462f444a518e9b79a103d408", 
+        "patches/habiLight.vim.diff": "input-93c153e389415cc08d877ffeff288ff6"
+    }, 
+    "patch -p0 -o patched/herald.vim originals/herald.vim patches/herald.vim.diff": {
+        "originals/herald.vim": "input-85479711e3fb45a5578cad0c049c5a83", 
+        "patched/herald.vim": "output-bdd97dff34efa4d0d46d8d440543d33b", 
+        "patches/herald.vim.diff": "input-81c2a76ba3d25bee9671952fd26b8ec3"
+    }, 
+    "patch -p0 -o patched/inkpot.vim originals/inkpot.vim patches/inkpot.vim.diff": {
+        "originals/inkpot.vim": "input-ee5f71ff314719d42e31248de5af4855", 
+        "patched/inkpot.vim": "output-7ef0c711ee378218831e4f81f7b12e85", 
+        "patches/inkpot.vim.diff": "input-7ee0a280e78c0cb564d4dab9012bb33b"
+    }, 
+    "patch -p0 -o patched/ir_black.vim originals/ir_black.vim patches/ir_black.vim.diff": {
+        "originals/ir_black.vim": "input-bb4ce7b7f8fba89db988195ce165bc76", 
+        "patched/ir_black.vim": "output-7ddaae50d8170ae55d621a32b757fabd", 
+        "patches/ir_black.vim.diff": "input-db08ddb7d255f71a338def60071f79ef"
+    }, 
+    "patch -p0 -o patched/ironman.vim originals/ironman.vim patches/ironman.vim.diff": {
+        "originals/ironman.vim": "input-d9af158a811256c84d4b724c8ff054a3", 
+        "patched/ironman.vim": "output-b29f7dc8c8339d1f92c6553403fba45d", 
+        "patches/ironman.vim.diff": "input-6f9814d922f624368af6af87ee055421"
+    }, 
+    "patch -p0 -o patched/jammy.vim originals/jammy.vim patches/jammy.vim.diff": {
+        "originals/jammy.vim": "input-1db4192fd100197beff061c237912c3a", 
+        "patched/jammy.vim": "output-5cbfdb825164a03033c0269d9499005e", 
+        "patches/jammy.vim.diff": "input-c2c2f845f8433c81000db4b2d3d4d117"
+    }, 
+    "patch -p0 -o patched/jellybeans.vim originals/jellybeans.vim patches/jellybeans.vim.diff": {
+        "originals/jellybeans.vim": "input-82b27152f96ecb711abfe9eb8baa3d1f", 
+        "patched/jellybeans.vim": "output-fda76ac310526ad990897a9472a50f69", 
+        "patches/jellybeans.vim.diff": "input-038c4cabf46f677dde34a22efe7d0c83"
+    }, 
+    "patch -p0 -o patched/kellys.vim originals/kellys.vim patches/kellys.vim.diff": {
+        "originals/kellys.vim": "input-05ee9422a6bee51722b53e2b890af5cd", 
+        "patched/kellys.vim": "output-d491729ea7fe05ca1df4c920845148e9", 
+        "patches/kellys.vim.diff": "input-1133e448a0e1e121d0293404b10046de"
+    }, 
+    "patch -p0 -o patched/leo.vim originals/leo.vim patches/leo.vim.diff": {
+        "originals/leo.vim": "input-1deabafc819bcebff5b7d0b80421e018", 
+        "patched/leo.vim": "output-8d7e944feccd7cbbb32de2ef8289baa4", 
+        "patches/leo.vim.diff": "input-957a0e5dbb1534adc8e564eee443ef3e"
+    }, 
+    "patch -p0 -o patched/lettuce.vim originals/lettuce.vim patches/lettuce.vim.diff": {
+        "originals/lettuce.vim": "input-8361182a15d224fec9e020919272cc1f", 
+        "patched/lettuce.vim": "output-f0261b9eac2d1426a5f6f845f84dbc2a", 
+        "patches/lettuce.vim.diff": "input-3139f1b080d69741e96ed357c2535dd2"
+    }, 
+    "patch -p0 -o patched/lucius.vim originals/lucius.vim patches/lucius.vim.diff": {
+        "originals/lucius.vim": "input-d25f3e357a52d8bb831d6cd52e9a4d45", 
+        "patched/lucius.vim": "output-7787727e64a6a48b809cf99c37f3bc25", 
+        "patches/lucius.vim.diff": "input-5a8e7003d5d434830bd64ea60a41d702"
+    }, 
+    "patch -p0 -o patched/manxome.vim originals/manxome.vim patches/manxome.vim.diff": {
+        "originals/manxome.vim": "input-ff8d848952d982d712b7150d28b1a460", 
+        "patched/manxome.vim": "output-81743a195d34752d705ae5ccbdd9d1a9", 
+        "patches/manxome.vim.diff": "input-ea313c7c7cebc8d35c3d50a41429ea7a"
+    }, 
+    "patch -p0 -o patched/maroloccio.vim originals/maroloccio.vim patches/maroloccio.vim.diff": {
+        "originals/maroloccio.vim": "input-ccd943dd724a050b86e8f4dabc52f915", 
+        "patched/maroloccio.vim": "output-2c4c1ab8fd6e56f06e4865d8b90fa9a3", 
+        "patches/maroloccio.vim.diff": "input-926996f7ff757f238383064f6daccc77"
+    }, 
+    "patch -p0 -o patched/martin_krischik.vim originals/martin_krischik.vim patches/martin_krischik.vim.diff": {
+        "originals/martin_krischik.vim": "input-dabb853154a5a093d1c61285e29f32b7", 
+        "patched/martin_krischik.vim": "output-c92e8d7fbbf152c05bff10707507d873", 
+        "patches/martin_krischik.vim.diff": "input-fdd668a66fa780f50a3c77f69b4de062"
+    }, 
+    "patch -p0 -o patched/matrix.vim originals/matrix.vim patches/matrix.vim.diff": {
+        "originals/matrix.vim": "input-aa01c1585e6e1009d15ef82f64f78105", 
+        "patched/matrix.vim": "output-e63fac9770fa1eb186a1092755314783", 
+        "patches/matrix.vim.diff": "input-9857fc91dff0754721b8459e26e99f7e"
+    }, 
+    "patch -p0 -o patched/molokai.vim originals/molokai.vim patches/molokai.vim.diff": {
+        "originals/molokai.vim": "input-fea8138fa815caa399f8b4fcf56bfe0e", 
+        "patched/molokai.vim": "output-297c3fcd13df6d018ab5a8692e891062", 
+        "patches/molokai.vim.diff": "input-a60fa790a26497cfbceda2c0fbe07566"
+    }, 
+    "patch -p0 -o patched/moria.vim originals/moria.vim patches/moria.vim.diff": {
+        "originals/moria.vim": "input-d75023a4b60fe7bc18ce143c4db73119", 
+        "patched/moria.vim": "output-2f9beaa72f495b4a13b53c8223836ebd", 
+        "patches/moria.vim.diff": "input-b53f856538478ad966bab389ae8ed943"
+    }, 
+    "patch -p0 -o patched/moss.vim originals/moss.vim patches/moss.vim.diff": {
+        "originals/moss.vim": "input-0a2ccbad524cfc374319f6a50a8cef95", 
+        "patched/moss.vim": "output-39c067f00afd3aa256ff12afceac2f54", 
+        "patches/moss.vim.diff": "input-343ec92a00e48d8c3d6382f7c7c42a75"
+    }, 
+    "patch -p0 -o patched/motus.vim originals/motus.vim patches/motus.vim.diff": {
+        "originals/motus.vim": "input-f117cae41691e215faec50b92dafa5e3", 
+        "patched/motus.vim": "output-bd36ca51064a0ba9a0b9ec293ed1e954", 
+        "patches/motus.vim.diff": "input-86c4ef9639d7b148f7e6b78287da0430"
+    }, 
+    "patch -p0 -o patched/mustang.vim originals/mustang.vim patches/mustang.vim.diff": {
+        "originals/mustang.vim": "input-a4c16518e1bc69f026c61f2e1e69df5f", 
+        "patched/mustang.vim": "output-d68a28968e7cc29b4ba798cdad090ea4", 
+        "patches/mustang.vim.diff": "input-69c05b82ba756db5a04d3033030d76d5"
+    }, 
+    "patch -p0 -o patched/navajo-night.vim originals/navajo-night.vim patches/navajo-night.vim.diff": {
+        "originals/navajo-night.vim": "input-1f09850d54a2536a3caabe88dfa7a82f", 
+        "patched/navajo-night.vim": "output-20d8284cd742993a42eb1f5794cfaea3", 
+        "patches/navajo-night.vim.diff": "input-e318f14a64fef2765205ef93861ce4c2"
+    }, 
+    "patch -p0 -o patched/navajo.vim originals/navajo.vim patches/navajo.vim.diff": {
+        "originals/navajo.vim": "input-f76a94e952b3cc050d8533bc626fdd23", 
+        "patched/navajo.vim": "output-4b5ff0b1e2e7a250088137d1e0071110", 
+        "patches/navajo.vim.diff": "input-aa79fb29b0525f6ecac66b455858cd54"
+    }, 
+    "patch -p0 -o patched/neon.vim originals/neon.vim patches/neon.vim.diff": {
+        "originals/neon.vim": "input-b32bb00a1fbe0721e78b2a22034a02c8", 
+        "patched/neon.vim": "output-86f6445de9492fff0ff5c657faf40840", 
+        "patches/neon.vim.diff": "input-10f9a69676254481082b0e6cd0333f18"
+    }, 
+    "patch -p0 -o patched/neverness.vim originals/neverness.vim patches/neverness.vim.diff": {
+        "originals/neverness.vim": "input-02d63b238cdbbe6c0bc3f50a1f3434f3", 
+        "patched/neverness.vim": "output-082d8cc29666736e4cfd6d63b469abd2", 
+        "patches/neverness.vim.diff": "input-ff40cdb1e819d42eeb5a5c4f689a855a"
+    }, 
+    "patch -p0 -o patched/night.vim originals/night.vim patches/night.vim.diff": {
+        "originals/night.vim": "input-ae035cd02c0d9a1d790718f9b4e7c5ef", 
+        "patched/night.vim": "output-d21f4d7300d177b3ba049c384b0438aa", 
+        "patches/night.vim.diff": "input-344e5648961866ef3ad06c2ec687f7f4"
+    }, 
+    "patch -p0 -o patched/nightshimmer.vim originals/nightshimmer.vim patches/nightshimmer.vim.diff": {
+        "originals/nightshimmer.vim": "input-2e4c3635a0c24ce3ea7f2a1795334569", 
+        "patched/nightshimmer.vim": "output-e5e240bd5925e7675c5207c118908c3a", 
+        "patches/nightshimmer.vim.diff": "input-79cb62149745a26670abb4d82127ea71"
+    }, 
+    "patch -p0 -o patched/no_quarter.vim originals/no_quarter.vim patches/no_quarter.vim.diff": {
+        "originals/no_quarter.vim": "input-f8554947ff02e04dd4ed43609e56b676", 
+        "patched/no_quarter.vim": "output-ae53ace04b972eef9a47ab05a056c8e8", 
+        "patches/no_quarter.vim.diff": "input-be6bee187df4bf269e4e6d9455c79a03"
+    }, 
+    "patch -p0 -o patched/northland.vim originals/northland.vim patches/northland.vim.diff": {
+        "originals/northland.vim": "input-c6146222f66f52b02de4bd8bc1ef7050", 
+        "patched/northland.vim": "output-0115bdc80201122405335f513769bcf4", 
+        "patches/northland.vim.diff": "input-54e37172c2500cf47b3790b31145c40b"
+    }, 
+    "patch -p0 -o patched/nuvola.vim originals/nuvola.vim patches/nuvola.vim.diff": {
+        "originals/nuvola.vim": "input-b4b4d5d88ba36121875cb75569f95e0d", 
+        "patched/nuvola.vim": "output-0aceec42b7f68790f38392162c87e9f6", 
+        "patches/nuvola.vim.diff": "input-5e13515e2d784f54b87242c329e4800b"
+    }, 
+    "patch -p0 -o patched/oceanblack.vim originals/oceanblack.vim patches/oceanblack.vim.diff": {
+        "originals/oceanblack.vim": "input-c2f310c16287982472843f4d156f6774", 
+        "patched/oceanblack.vim": "output-44571e5187b963498cece68b5ee6161c", 
+        "patches/oceanblack.vim.diff": "input-5853c4bd14c66aa4ab3bdb7c1acb382b"
+    }, 
+    "patch -p0 -o patched/oceandeep.vim originals/oceandeep.vim patches/oceandeep.vim.diff": {
+        "originals/oceandeep.vim": "input-674c3679265fcda7305077ef08311963", 
+        "patched/oceandeep.vim": "output-62b4fd22c67701c02fb42688e93f4cfe", 
+        "patches/oceandeep.vim.diff": "input-79b21c6477115bd289cf55286b2cf35e"
+    }, 
+    "patch -p0 -o patched/oceanlight.vim originals/oceanlight.vim patches/oceanlight.vim.diff": {
+        "originals/oceanlight.vim": "input-d58d16b6939eff78c09ec24198d9b0e8", 
+        "patched/oceanlight.vim": "output-d51700c283115f81e7a69a68c90faf7d", 
+        "patches/oceanlight.vim.diff": "input-6bf9c0b96f83c2d8c351ed0ef0a24809"
+    }, 
+    "patch -p0 -o patched/olive.vim originals/olive.vim patches/olive.vim.diff": {
+        "originals/olive.vim": "input-1ae4f9551e2df09977ccc57081f1ac11", 
+        "patched/olive.vim": "output-48c769f575242c2a104804594c10819f", 
+        "patches/olive.vim.diff": "input-81f0f21288ae3ef6f3fffb87b1a9b365"
+    }, 
+    "patch -p0 -o patched/peaksea.vim originals/peaksea.vim patches/peaksea.vim.diff": {
+        "originals/peaksea.vim": "input-6f9f09f255f47de807f823cd468cb456", 
+        "patched/peaksea.vim": "output-d2be0d5ec86c03f721ab23b2fc398ad8", 
+        "patches/peaksea.vim.diff": "input-fec297af8c95c454adb0cb333b330d45"
+    }, 
+    "patch -p0 -o patched/print_bw.vim originals/print_bw.vim patches/print_bw.vim.diff": {
+        "originals/print_bw.vim": "input-98ad9f4f13d9431401870d0c1256b80a", 
+        "patched/print_bw.vim": "output-deff7be11125237924cf64718c4b57bf", 
+        "patches/print_bw.vim.diff": "input-169f1b6e871d436ee588dc0b1ae1d1b7"
+    }, 
+    "patch -p0 -o patched/pyte.vim originals/pyte.vim patches/pyte.vim.diff": {
+        "originals/pyte.vim": "input-3b1668ccc7bf69b59cf5f5d22e181abb", 
+        "patched/pyte.vim": "output-fcfc32021c19356f134b56b487849554", 
+        "patches/pyte.vim.diff": "input-405d92df125ae7c2b431b5bc59a2eeee"
+    }, 
+    "patch -p0 -o patched/railscasts.vim originals/railscasts.vim patches/railscasts.vim.diff": {
+        "originals/railscasts.vim": "input-b172d7639227d19830e4be7b7d309df2", 
+        "patched/railscasts.vim": "output-ae1d0886f8ac1cda15a19fc2783631cc", 
+        "patches/railscasts.vim.diff": "input-200dd4299d1baa655af211e891b8eae2"
+    }, 
+    "patch -p0 -o patched/rdark.vim originals/rdark.vim patches/rdark.vim.diff": {
+        "originals/rdark.vim": "input-5ea7d40b034dcd83d5c95ce3f0e96bdd", 
+        "patched/rdark.vim": "output-69e119db25cd586c26288b0875e00e10", 
+        "patches/rdark.vim.diff": "input-4261780ed7a83806aba96bae20068954"
+    }, 
+    "patch -p0 -o patched/relaxedgreen.vim originals/relaxedgreen.vim patches/relaxedgreen.vim.diff": {
+        "originals/relaxedgreen.vim": "input-3abb1e60600a16d571f96b5172e1e238", 
+        "patched/relaxedgreen.vim": "output-1730d0594ae37307a38216b1606e3566", 
+        "patches/relaxedgreen.vim.diff": "input-558d5491ef955740ab27deb4dc268e47"
+    }, 
+    "patch -p0 -o patched/robinhood.vim originals/robinhood.vim patches/robinhood.vim.diff": {
+        "originals/robinhood.vim": "input-2fc3240d160d68266d21933fb71046b5", 
+        "patched/robinhood.vim": "output-3c9dd53a866658ff0ea03c36012aec62", 
+        "patches/robinhood.vim.diff": "input-588f7e9cf98062b14cc14abd5de2facc"
+    }, 
+    "patch -p0 -o patched/rootwater.vim originals/rootwater.vim patches/rootwater.vim.diff": {
+        "originals/rootwater.vim": "input-26f39bbcc7847dba4148155383d4e4f4", 
+        "patched/rootwater.vim": "output-b4554bb63b7fdbea40a480e30812fc83", 
+        "patches/rootwater.vim.diff": "input-188ca43323f1d26b4dcd6879dd183391"
+    }, 
+    "patch -p0 -o patched/satori.vim originals/satori.vim patches/satori.vim.diff": {
+        "originals/satori.vim": "input-3b56efeaf354f79ee471d33a4f46c515", 
+        "patched/satori.vim": "output-a11f067c526870f0a66ed0bda7241108", 
+        "patches/satori.vim.diff": "input-53f5a78824dd1c5221bb72c1a6f9ee86"
+    }, 
+    "patch -p0 -o patched/sea.vim originals/sea.vim patches/sea.vim.diff": {
+        "originals/sea.vim": "input-9af976180f66c2ee5944257809820f6a", 
+        "patched/sea.vim": "output-7b5f09dd6e71764d4df9ed3dcfc8df2a", 
+        "patches/sea.vim.diff": "input-61eb1a516c10d67c0488b27765f38214"
+    }, 
+    "patch -p0 -o patched/settlemyer.vim originals/settlemyer.vim patches/settlemyer.vim.diff": {
+        "originals/settlemyer.vim": "input-bf939806f6c2d0c140dc1a9b80ab124e", 
+        "patched/settlemyer.vim": "output-c5bea8a30e659ff43d3ac1d9d5ca676c", 
+        "patches/settlemyer.vim.diff": "input-58cbd00473c05813bd585a388a722341"
+    }, 
+    "patch -p0 -o patched/sienna.vim originals/sienna.vim patches/sienna.vim.diff": {
+        "originals/sienna.vim": "input-d31d8052bb7ab612ab5cc898108077c8", 
+        "patched/sienna.vim": "output-1fd48966ad64be0a32a81b1018bf94c5", 
+        "patches/sienna.vim.diff": "input-fb64679bbd6a59979d61f58fbcfd5d45"
+    }, 
+    "patch -p0 -o patched/silent.vim originals/silent.vim patches/silent.vim.diff": {
+        "originals/silent.vim": "input-980a21728e02b39cbd507ee555ebb19e", 
+        "patched/silent.vim": "output-5db4965292c9e5d8b1082c22200bf1d6", 
+        "patches/silent.vim.diff": "input-7fb76321954b1a8567e72ab13bfbfbea"
+    }, 
+    "patch -p0 -o patched/simpleandfriendly.vim originals/simpleandfriendly.vim patches/simpleandfriendly.vim.diff": {
+        "originals/simpleandfriendly.vim": "input-f1badaad9d0741ff7a2dc47b88311bd7", 
+        "patched/simpleandfriendly.vim": "output-9aa55489a18108ead8d21a87be1162cc", 
+        "patches/simpleandfriendly.vim.diff": "input-361cf2d675b6386c71c26801ae2e512e"
+    }, 
+    "patch -p0 -o patched/softblue.vim originals/softblue.vim patches/softblue.vim.diff": {
+        "originals/softblue.vim": "input-3ed4223a22fda2637922e58fc3a5c01e", 
+        "patched/softblue.vim": "output-5dd774f7ee3a7663bb72be76aacd6af2", 
+        "patches/softblue.vim.diff": "input-a312190e5089a943bcd4705d2d247c58"
+    }, 
+    "patch -p0 -o patched/soso.vim originals/soso.vim patches/soso.vim.diff": {
+        "originals/soso.vim": "input-ef1f2583a374989e3f91a73adc15fc9b", 
+        "patched/soso.vim": "output-683fb7241407a0460ba4289bb361c4ff", 
+        "patches/soso.vim.diff": "input-70442990d0f64b3b9c47906e0683b209"
+    }, 
+    "patch -p0 -o patched/spring.vim originals/spring.vim patches/spring.vim.diff": {
+        "originals/spring.vim": "input-d9040f3dda1785dbc1cd6faaff7295b1", 
+        "patched/spring.vim": "output-ecb4c1a87ee6fed5c8df9523d6959c4d", 
+        "patches/spring.vim.diff": "input-539ff62a0fd93606d689e03698dbb704"
+    }, 
+    "patch -p0 -o patched/summerfruit256.vim originals/summerfruit256.vim patches/summerfruit256.vim.diff": {
+        "originals/summerfruit256.vim": "input-6ac6d97608d95a77b544f455f96e5047", 
+        "patched/summerfruit256.vim": "output-93c6472b0f9d015ce132e395d094a546", 
+        "patches/summerfruit256.vim.diff": "input-5107902c0b30438324a30b7dfd3c0cbb"
+    }, 
+    "patch -p0 -o patched/synic.vim originals/synic.vim patches/synic.vim.diff": {
+        "originals/synic.vim": "input-18282f9674363a48c1c163b87ab36ee4", 
+        "patched/synic.vim": "output-d55515ee6ad771f916ae414991df54c8", 
+        "patches/synic.vim.diff": "input-8283ce9f37c62786b8077329ea84cb4c"
+    }, 
+    "patch -p0 -o patched/tabula.vim originals/tabula.vim patches/tabula.vim.diff": {
+        "originals/tabula.vim": "input-efc19fc9681995471f8ae091530c89bb", 
+        "patched/tabula.vim": "output-f4062c3335d9cf71826bafb38e295208", 
+        "patches/tabula.vim.diff": "input-55c52e09c26324f7ff2d816a0b25931c"
+    }, 
+    "patch -p0 -o patched/tango.vim originals/tango.vim patches/tango.vim.diff": {
+        "originals/tango.vim": "input-016f3cb73243b331c77f90157ed71d0f", 
+        "patched/tango.vim": "output-7fae7e0d01defcee3ca05916ac67a900", 
+        "patches/tango.vim.diff": "input-7216ab111d89bec34c1a4ad3a4912457"
+    }, 
+    "patch -p0 -o patched/tango2.vim originals/tango2.vim patches/tango2.vim.diff": {
+        "originals/tango2.vim": "input-8a8d13501760b56dc111ba62d747f56d", 
+        "patched/tango2.vim": "output-6cd3bf4cafb436cd5e1c85682e42ae58", 
+        "patches/tango2.vim.diff": "input-8262e66e9c3cafa04caaa2da293eb3e7"
+    }, 
+    "patch -p0 -o patched/taqua.vim originals/taqua.vim patches/taqua.vim.diff": {
+        "originals/taqua.vim": "input-7e7b3d86c9dbdf1fc96b49e4aed51799", 
+        "patched/taqua.vim": "output-5f8a0ae51edc5110a710f25f2249a38d", 
+        "patches/taqua.vim.diff": "input-e115c02f8d8f26fec20a73abbd9696d3"
+    }, 
+    "patch -p0 -o patched/tcsoft.vim originals/tcsoft.vim patches/tcsoft.vim.diff": {
+        "originals/tcsoft.vim": "input-058f05b991c0c472bca6844bc3b8555f", 
+        "patched/tcsoft.vim": "output-d5f0fd56e0d57d93ab1d118724ddbce4", 
+        "patches/tcsoft.vim.diff": "input-1444fe2852bf08d56c60b9bb973293be"
+    }, 
+    "patch -p0 -o patched/tir_black.vim originals/tir_black.vim patches/tir_black.vim.diff": {
+        "originals/tir_black.vim": "input-adec44d5341a8910f32a8c52e081a0ee", 
+        "patched/tir_black.vim": "output-d055700c00bb5802cff187ebae8787d8", 
+        "patches/tir_black.vim.diff": "input-50d6a38a56c684d6a4a4c9d8668145ff"
+    }, 
+    "patch -p0 -o patched/tolerable.vim originals/tolerable.vim patches/tolerable.vim.diff": {
+        "originals/tolerable.vim": "input-edd26103b4e35b2633a4ca23bca6a1c9", 
+        "patched/tolerable.vim": "output-f38dc3498af152cbe4797c648cd0e6ed", 
+        "patches/tolerable.vim.diff": "input-e1b7bb74ab7ad84962f9de735f76fd2a"
+    }, 
+    "patch -p0 -o patched/torte.vim originals/torte.vim patches/torte.vim.diff": {
+        "originals/torte.vim": "input-c1673f25b064dab0c01c38cc5bffb1d5", 
+        "patched/torte.vim": "output-8f7a954886662e155862ad278802e932", 
+        "patches/torte.vim.diff": "input-fcb1441078b5f82353822ed3b612a6c8"
+    }, 
+    "patch -p0 -o patched/vc.vim originals/vc.vim patches/vc.vim.diff": {
+        "originals/vc.vim": "input-8f041b1cc253c4f4520e1fbd79657102", 
+        "patched/vc.vim": "output-c5e59230df11834ab6ba5609c9d98839", 
+        "patches/vc.vim.diff": "input-eed0bf356523c7c3d7c23176f42dc39b"
+    }, 
+    "patch -p0 -o patched/vibrantink.vim originals/vibrantink.vim patches/vibrantink.vim.diff": {
+        "originals/vibrantink.vim": "input-da8b6deb4e0e9d4ff80cb83ffa7faf25", 
+        "patched/vibrantink.vim": "output-c0fa0b09c2e4e9605756781ac01e293d", 
+        "patches/vibrantink.vim.diff": "input-fb6d8f12c393c198360ffcb3bd990f58"
+    }, 
+    "patch -p0 -o patched/vividchalk.vim originals/vividchalk.vim patches/vividchalk.vim.diff": {
+        "originals/vividchalk.vim": "input-a5545c98fd979be9e4b895ba9b946c9a", 
+        "patched/vividchalk.vim": "output-1924df29af3fea5b0be96939e8a512bd", 
+        "patches/vividchalk.vim.diff": "input-a47075467e93187f3330b1aa3b7936ad"
+    }, 
+    "patch -p0 -o patched/vylight.vim originals/vylight.vim patches/vylight.vim.diff": {
+        "originals/vylight.vim": "input-92743c42e458c132e17e06b231b8b1b4", 
+        "patched/vylight.vim": "output-4ae260deaaed4f1f4e88fe018683f29a", 
+        "patches/vylight.vim.diff": "input-ec0fb7f0af3daeb9fe94aa32b9bba96f"
+    }, 
+    "patch -p0 -o patched/winter.vim originals/winter.vim patches/winter.vim.diff": {
+        "originals/winter.vim": "input-91c039062bb6d7139ac947088846d25e", 
+        "patched/winter.vim": "output-08b07f31df90352efea8a75f1b681bb5", 
+        "patches/winter.vim.diff": "input-41a0400f995e9db984684adf7ae0060c"
+    }, 
+    "patch -p0 -o patched/wombat.vim originals/wombat.vim patches/wombat.vim.diff": {
+        "originals/wombat.vim": "input-cf39025ed7b35a2c5522988fa3d98e33", 
+        "patched/wombat.vim": "output-60265778fd09fb439baa2643e1e8bc4e", 
+        "patches/wombat.vim.diff": "input-7162c1622acc008f21515484334eaa26"
+    }, 
+    "patch -p0 -o patched/wombat256.vim originals/wombat256.vim patches/wombat256.vim.diff": {
+        "originals/wombat256.vim": "input-a2f5823e3a263035b428bcdab25501c6", 
+        "patched/wombat256.vim": "output-0c93c0ae4c159b6344307c446d9c759a", 
+        "patches/wombat256.vim.diff": "input-642d0dc69c637106667a74413a19acf9"
+    }, 
+    "patch -p0 -o patched/wood.vim originals/wood.vim patches/wood.vim.diff": {
+        "originals/wood.vim": "input-2ce40a5caf81ff5d5496e2983926f63f", 
+        "patched/wood.vim": "output-930c76c00858a31c3d37cb6feeb5f8ad", 
+        "patches/wood.vim.diff": "input-d53e730ce7af8a15b685ee70606405c5"
+    }, 
+    "patch -p0 -o patched/wuye.vim originals/wuye.vim patches/wuye.vim.diff": {
+        "originals/wuye.vim": "input-fba229b1fc8793214e8e2adcc9b9583b", 
+        "patched/wuye.vim": "output-9d7ecfaf71291a105d443741e08c5ce1", 
+        "patches/wuye.vim.diff": "input-f501e4b09f2594080752f1eded19ac80"
+    }, 
+    "patch -p0 -o patched/xemacs.vim originals/xemacs.vim patches/xemacs.vim.diff": {
+        "originals/xemacs.vim": "input-16902d3da62e68118b86ae6c1b8abe56", 
+        "patched/xemacs.vim": "output-429b82567a8e0c3329e4a4d06325220b", 
+        "patches/xemacs.vim.diff": "input-8277e07d230619bf0722bc646cb67646"
+    }, 
+    "patch -p0 -o patched/xoria256.vim originals/xoria256.vim patches/xoria256.vim.diff": {
+        "originals/xoria256.vim": "input-51488fb61fe53715bba4371194061d19", 
+        "patched/xoria256.vim": "output-7280d2846cdd557be8b23dcf01de334d", 
+        "patches/xoria256.vim.diff": "input-b194acda705f7a4dcae9dc2356778461"
+    }, 
+    "patch -p0 -o patched/zenburn.vim originals/zenburn.vim patches/zenburn.vim.diff": {
+        "originals/zenburn.vim": "input-5826eeb60a6031847c65a4c304d2a804", 
+        "patched/zenburn.vim": "output-f20b516e50352c37a7ee0e4fcc39d838", 
+        "patches/zenburn.vim.diff": "input-4ebf098b103bc05a17776f31f4ab5442"
+    }, 
+    "patch -p0 -o patched/zmrok.vim originals/zmrok.vim patches/zmrok.vim.diff": {
+        "originals/zmrok.vim": "input-6bbba42ba80b930c9f1b6389fab3c868", 
+        "patched/zmrok.vim": "output-51d47c93c1e29d4a3f868c5af3472974", 
+        "patches/zmrok.vim.diff": "input-e7e6438d6f69e8980890cdf9a5d86003"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/BlackSea.vim > runtime/colors/BlackSea.vim\"": {
+        "runtime/colors/BlackSea.vim": "output-54b5d57414bb32982495bd985a51ae7d", 
+        "scripts/color.py": "input-f450d27e584f089353657f017b035b0d", 
+        "scripts/color.pyc": "output-97da087c18ea9f55833b284fb50ba72b", 
+        "scripts/gui2xterm": "input-ffc124fb01a19885ad9e1965e8f5628e"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/adaryn.vim > runtime/colors/adaryn.vim\"": {
+        "runtime/colors/adaryn.vim": "output-2c8bef8481bd9e88fc6358f8709ad6f2"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/adrian.vim > runtime/colors/adrian.vim\"": {
+        "runtime/colors/adrian.vim": "output-0a915778e5f68b641f88d3ab2d69a947"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/aiseered.vim > runtime/colors/aiseered.vim\"": {
+        "runtime/colors/aiseered.vim": "output-0549ff5208261e3aba318cc8fa0cb6b4"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/anotherdark.vim > runtime/colors/anotherdark.vim\"": {
+        "runtime/colors/anotherdark.vim": "output-cae2bf78179b35d2888493767e6d5d0b"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/aqua.vim > runtime/colors/aqua.vim\"": {
+        "runtime/colors/aqua.vim": "output-d7faad8dae9c35d611d8535fce82703a"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/breeze.vim > runtime/colors/breeze.vim\"": {
+        "runtime/colors/breeze.vim": "output-04757b6abe7464f1d6f4cf7b65eadc01", 
+        "tagged/breeze.vim": "input-849ee72ed4085380b26c4d1e0f2963a7"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/camo.vim > runtime/colors/camo.vim\"": {
+        "runtime/colors/camo.vim": "output-1e715e1d34cbe872389e450b03f68d0f"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/candycode.vim > runtime/colors/candycode.vim\"": {
+        "runtime/colors/candycode.vim": "output-c28fda04d68069c5d1d08dda0165c3df"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/colorer.vim > runtime/colors/colorer.vim\"": {
+        "runtime/colors/colorer.vim": "output-ce551b82340211566abf3d7898f9cbbd"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/darkZ.vim > runtime/colors/darkZ.vim\"": {
+        "runtime/colors/darkZ.vim": "output-8d8a757380f01669733bf99350a47d55"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/denim.vim > runtime/colors/denim.vim\"": {
+        "runtime/colors/denim.vim": "output-bf23df7471c726517676ac99eba24021"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/desertEx.vim > runtime/colors/desertEx.vim\"": {
+        "runtime/colors/desertEx.vim": "output-a0eec6f80f3ab37e029ebc8e0d1e662f"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_blue.vim > runtime/colors/dw_blue.vim\"": {
+        "runtime/colors/dw_blue.vim": "output-da275c976ddd2a3ff5a3d586b044a3bf"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_cyan.vim > runtime/colors/dw_cyan.vim\"": {
+        "runtime/colors/dw_cyan.vim": "output-84b8d0582713d9fb588d1da43035c38f"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_green.vim > runtime/colors/dw_green.vim\"": {
+        "runtime/colors/dw_green.vim": "output-96e6f6a515a690159ecf280df0103a87"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_orange.vim > runtime/colors/dw_orange.vim\"": {
+        "runtime/colors/dw_orange.vim": "output-2da6fb19e0d53bb9aca13ed51ce1da5d"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_purple.vim > runtime/colors/dw_purple.vim\"": {
+        "runtime/colors/dw_purple.vim": "output-90e7814cbc7cbbc72a231c61097efa9c"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_red.vim > runtime/colors/dw_red.vim\"": {
+        "runtime/colors/dw_red.vim": "output-3025d20ec82f0c0bab842e6dead2d60e"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/dw_yellow.vim > runtime/colors/dw_yellow.vim\"": {
+        "runtime/colors/dw_yellow.vim": "output-c81a99aeb136b1e58e00d31ed5fab5b9"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/freya.vim > runtime/colors/freya.vim\"": {
+        "runtime/colors/freya.vim": "output-b12a129f1b12f3d03d62e5d803589216"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/fruity.vim > runtime/colors/fruity.vim\"": {
+        "runtime/colors/fruity.vim": "output-98a8b8666d73b4608c57a14c7771ffe5"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/golden.vim > runtime/colors/golden.vim\"": {
+        "runtime/colors/golden.vim": "output-05f22fe57de9c1a736a3b05a2611916c"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/kellys.vim > runtime/colors/kellys.vim\"": {
+        "runtime/colors/kellys.vim": "output-1a744178bb80c4d31a21cbda3302493b"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/manxome.vim > runtime/colors/manxome.vim\"": {
+        "runtime/colors/manxome.vim": "output-26b09bcca25012265f02d169d851d74e"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/motus.vim > runtime/colors/motus.vim\"": {
+        "runtime/colors/motus.vim": "output-bc1d31f7957163dfd73e653856db613d"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/mustang.vim > runtime/colors/mustang.vim\"": {
+        "runtime/colors/mustang.vim": "output-5f1d3b942cc1fd90ac064e2930fce64c"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/night.vim > runtime/colors/night.vim\"": {
+        "runtime/colors/night.vim": "output-464eb7fb504d941614f24134b3733e28"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/rdark.vim > runtime/colors/rdark.vim\"": {
+        "runtime/colors/rdark.vim": "output-afb41df75d545875f9c29583d0f28038"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/settlemyer.vim > runtime/colors/settlemyer.vim\"": {
+        "runtime/colors/settlemyer.vim": "output-92c7914012e27b6ae2a2c27d35ef09c8"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/synic.vim > runtime/colors/synic.vim\"": {
+        "runtime/colors/synic.vim": "output-3baf0480ccc8fd4396852d16f00c96c1"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/tango.vim > runtime/colors/tango.vim\"": {
+        "runtime/colors/tango.vim": "output-c9709aa441dda25b378136f614dcd4ba"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/tango2.vim > runtime/colors/tango2.vim\"": {
+        "runtime/colors/tango2.vim": "output-d83e5a7a9cd0abc3ef10a23e58a0d6c4"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/torte.vim > runtime/colors/torte.vim\"": {
+        "runtime/colors/torte.vim": "output-e8d9f74bb718cf6553fc00d1c0880b71"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/vibrantink.vim > runtime/colors/vibrantink.vim\"": {
+        "runtime/colors/vibrantink.vim": "output-48bc5472f35953778e41278be4e7aa5f"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/vividchalk.vim > runtime/colors/vividchalk.vim\"": {
+        "runtime/colors/vividchalk.vim": "output-0279f793d3c176f5fb0780e8d6068d43"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/wombat.vim > runtime/colors/wombat.vim\"": {
+        "runtime/colors/wombat.vim": "output-6918134350cc53f7c5f12d515675d195"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/wood.vim > runtime/colors/wood.vim\"": {
+        "runtime/colors/wood.vim": "output-0193c859fd0dbfcfd15fb6bd8950cea2"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/xoria256.vim > runtime/colors/xoria256.vim\"": {
+        "runtime/colors/xoria256.vim": "output-7e86f97837ae20eac531ec034334820f"
+    }, 
+    "sh -c \"./scripts/gui2xterm  tagged/zmrok.vim > runtime/colors/zmrok.vim\"": {
+        "runtime/colors/zmrok.vim": "output-0d140708da2c04297962a24ff53fe8b8"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light --spell=none -a SpellBad underline -a SpellCap underline -a SpellRare underline -a SpellLocal underline tagged/biogoo.vim > runtime/colors/biogoo.vim\"": {
+        "runtime/colors/biogoo.vim": "output-15dafd67e37e4d9cc8f93a9d2f60d498"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light --spell=none tagged/bclear.vim > runtime/colors/bclear.vim\"": {
+        "runtime/colors/bclear.vim": "output-e0322b2573fb8133e996775629115832"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b CursorColumn 230 -a Error underline tagged/martin_krischik.vim > runtime/colors/martin_krischik.vim\"": {
+        "runtime/colors/martin_krischik.vim": "output-9600989455b1d9d1ee76c45c6c9c785b"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b DiffText 224 tagged/nuvola.vim > runtime/colors/nuvola.vim\"": {
+        "runtime/colors/nuvola.vim": "output-660a10d5ead883958ebf10993902d843"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b Normal 180 tagged/navajo.vim > runtime/colors/navajo.vim\"": {
+        "runtime/colors/navajo.vim": "output-92fb2431d5b5ad1df861bfe222e51448"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b SpellBad 217 -b SpellCap 217 -b SpellRare 120 -b SpellLocal 217 tagged/chela_light.vim > runtime/colors/chela_light.vim\"": {
+        "runtime/colors/chela_light.vim": "output-9157ad3ab6d5b56feb2f3819a6aa5813"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b SpellBad 31 -b SpellCap 23 -b SpellRare 55 -b SpellLocal bg -a SpellLocal underline -b Normal 17 -b Folded 18 -a Error bold,underline tagged/ekvoli.vim > runtime/colors/ekvoli.vim\"": {
+        "runtime/colors/ekvoli.vim": "output-2c264991748b3a448b39197df3e9f193"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b SpellBad bg -a SpellBad underline -b SpellCap 120 -b SpellRare bg -a SpellRare underline tagged/soso.vim > runtime/colors/soso.vim\"": {
+        "runtime/colors/soso.vim": "output-dd60378617b8013562571df81f9c751c"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b SpellCap 217 -b SpellRare 217 -b SpellLocal 217 -c f1ffc1 193 tagged/silent.vim > runtime/colors/silent.vim\"": {
+        "runtime/colors/silent.vim": "output-6fe6a4a354f99b3443806a7b12d41a24"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b SpellLocal 109 tagged/dawn.vim > runtime/colors/dawn.vim\"": {
+        "runtime/colors/dawn.vim": "output-350bfbe5892a657b569212609fc3201c"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b StatusLine 67 -b Visual 216 -b Folded 223 -b DiffChange 224 tagged/eclipse.vim > runtime/colors/eclipse.vim\"": {
+        "runtime/colors/eclipse.vim": "output-dbfc58da773dc5cc529d32cf34320a6f"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -b StatusLine 67 -c a0b0c0 146 tagged/ironman.vim > runtime/colors/ironman.vim\"": {
+        "runtime/colors/ironman.vim": "output-6e7e57dcaed18a801d304a6d48f3ca07"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -c 2f4f4f 23 -b Normal 194 tagged/spring.vim > runtime/colors/spring.vim\"": {
+        "runtime/colors/spring.vim": "output-246949386db840ae303769bec0dc6146"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -c a0b0c0 146 tagged/pyte.vim > runtime/colors/pyte.vim\"": {
+        "runtime/colors/pyte.vim": "output-72efff9ea40ec7c6821a4c5bcbc994bf"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light -f StatusLine 94 tagged/PapayaWhip.vim > runtime/colors/PapayaWhip.vim\"": {
+        "runtime/colors/PapayaWhip.vim": "output-9e332b1ff26b51609063487a25e66431"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/autumn.vim > runtime/colors/autumn.vim\"": {
+        "runtime/colors/autumn.vim": "output-76a556f04a62f202fb1c50efed870e54"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/autumn2.vim > runtime/colors/autumn2.vim\"": {
+        "runtime/colors/autumn2.vim": "output-77017a0deef5fd9e372be7d678ed3a10"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/autumnleaf.vim > runtime/colors/autumnleaf.vim\"": {
+        "runtime/colors/autumnleaf.vim": "output-dad9a73aa219796b7825f2b252e2340a"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/buttercream.vim > runtime/colors/buttercream.vim\"": {
+        "runtime/colors/buttercream.vim": "output-f7858274211f01f04f51cfb1e7516b78"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/fine_blue.vim > runtime/colors/fine_blue.vim\"": {
+        "runtime/colors/fine_blue.vim": "output-5a4c7c2dd7a7d58e46714f6d0a5dbdc1"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/fog.vim > runtime/colors/fog.vim\"": {
+        "runtime/colors/fog.vim": "output-9b437b8e4f99f417ab9a8bfebf592b3b"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/fruit.vim > runtime/colors/fruit.vim\"": {
+        "runtime/colors/fruit.vim": "output-02aa02f89ee2488b9b9e7a448e5015c4"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/habiLight.vim > runtime/colors/habiLight.vim\"": {
+        "runtime/colors/habiLight.vim": "output-b866c0b7f77f8eef672cfbb89d7c3e4a"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/oceanlight.vim > runtime/colors/oceanlight.vim\"": {
+        "runtime/colors/oceanlight.vim": "output-553dcf1fa808dae0c2828de718f427c9"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/print_bw.vim > runtime/colors/print_bw.vim\"": {
+        "runtime/colors/print_bw.vim": "output-b0338105cd4ae83b331a1c1246223b7b"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/satori.vim > runtime/colors/satori.vim\"": {
+        "runtime/colors/satori.vim": "output-9ad6702c7ef55e580d53443ea84dee50"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/simpleandfriendly.vim > runtime/colors/simpleandfriendly.vim\"": {
+        "runtime/colors/simpleandfriendly.vim": "output-cab1abdc925e87753204afb6977f2ec3"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/taqua.vim > runtime/colors/taqua.vim\"": {
+        "runtime/colors/taqua.vim": "output-c929dd5e4d3d0a4440d25542083ddd51"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/tcsoft.vim > runtime/colors/tcsoft.vim\"": {
+        "runtime/colors/tcsoft.vim": "output-b5910245c8315917a143fb1e687b6251"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/tolerable.vim > runtime/colors/tolerable.vim\"": {
+        "runtime/colors/tolerable.vim": "output-32de603f3351069b295d25121a1001f1"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/vc.vim > runtime/colors/vc.vim\"": {
+        "runtime/colors/vc.vim": "output-07c437d3a945aecb6b47400930068f97"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/vylight.vim > runtime/colors/vylight.vim\"": {
+        "runtime/colors/vylight.vim": "output-0088fce29b668b82c613bae1211c27ef"
+    }, 
+    "sh -c \"./scripts/gui2xterm --light tagged/winter.vim > runtime/colors/winter.vim\"": {
+        "runtime/colors/winter.vim": "output-cbaf8f37db2e205c3543c886b8e616ed"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=light -b StatusLineNC 146 tagged/xemacs.vim > runtime/colors/xemacs.vim\"": {
+        "runtime/colors/xemacs.vim": "output-6d8c5cf49ae53d0a815fd92ae112bab4"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=light tagged/cleanphp.vim > runtime/colors/cleanphp.vim\"": {
+        "runtime/colors/cleanphp.vim": "output-77ae980acb56fb16639dec950cc9b63c"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=none -c 334b7d 24 -c 25365a 17 tagged/moria.vim > runtime/colors/moria.vim\"": {
+        "runtime/colors/moria.vim": "output-0a7c0447a946e266066c135a88ae87ef"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=none -c 354070 60 -c 6880ea 110 -c 004335 23 -c 152555 17 tagged/baycomb.vim > runtime/colors/baycomb.vim\"": {
+        "runtime/colors/baycomb.vim": "output-e551967f7b21a9ff57deaa2652b30e87"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=none -c bcc7de 152 -c 35466a 60 tagged/earendel.vim > runtime/colors/earendel.vim\"": {
+        "runtime/colors/earendel.vim": "output-763b5982079a8585d8522101a9b8fe1d"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=none tagged/peaksea.vim > runtime/colors/peaksea.vim\"": {
+        "runtime/colors/peaksea.vim": "output-f3c941d38bd5c98145fe33c163c38ff3"
+    }, 
+    "sh -c \"./scripts/gui2xterm --spell=none tagged/sienna.vim > runtime/colors/sienna.vim\"": {
+        "runtime/colors/sienna.vim": "output-3d26a34163ded2c071cd7232d6e7ec89"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffAdd 17 -b SpellRare bg -a SpellRare underline tagged/molokai.vim > runtime/colors/molokai.vim\"": {
+        "runtime/colors/molokai.vim": "output-386eb5713647227022b4044118e0139b"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffAdd 22 tagged/railscasts.vim > runtime/colors/railscasts.vim\"": {
+        "runtime/colors/railscasts.vim": "output-e59b02f5aa36bc3bd367e991390bd5ae"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffChange 125 tagged/dante.vim > runtime/colors/dante.vim\"": {
+        "runtime/colors/dante.vim": "output-035d507992f137649f124f8b46941d6e"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffChange 52 tagged/candy.vim > runtime/colors/candy.vim\"": {
+        "runtime/colors/candy.vim": "output-953a0a8f59440567bfa71fca8b3ed323"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffChange 52 tagged/neon.vim > runtime/colors/neon.vim\"": {
+        "runtime/colors/neon.vim": "output-a32bf7adc7dcad83ca4597a15ac9dda4"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b DiffChange 52 tagged/no_quarter.vim > runtime/colors/no_quarter.vim\"": {
+        "runtime/colors/no_quarter.vim": "output-f4da2a6568bff61d267d4a3a2754f584"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Error 124 tagged/ir_black.vim > runtime/colors/ir_black.vim\"": {
+        "runtime/colors/ir_black.vim": "output-4a72d886cd11b4f6a3cf0e09dc30ce36"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Folded 53 tagged/fnaqevan.vim > runtime/colors/fnaqevan.vim\"": {
+        "runtime/colors/fnaqevan.vim": "output-309d2ec34cb9da966f9381974426b8b3"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b NonText 18 -b Normal 17 tagged/sea.vim > runtime/colors/sea.vim\"": {
+        "runtime/colors/sea.vim": "output-84f08b1a85ef8ae9cbe4a556410564f3"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b NonText 24 tagged/guardian.vim > runtime/colors/guardian.vim\"": {
+        "runtime/colors/guardian.vim": "output-7bd6837d067ceed80146c78af103ff1c"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 17 -b NonText 24 tagged/clarity.vim > runtime/colors/clarity.vim\"": {
+        "runtime/colors/clarity.vim": "output-35a5e406b296bf112c3f3ed8aacc437c"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 17 -b NonText 60 tagged/bluegreen.vim > runtime/colors/bluegreen.vim\"": {
+        "runtime/colors/bluegreen.vim": "output-47f997188d3cd96efa17d42c67e4e456"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 17 -c 8f3231 88 -c 333366 60 tagged/maroloccio.vim > runtime/colors/maroloccio.vim\"": {
+        "runtime/colors/maroloccio.vim": "output-d7c42796b5c56495ebbf5c8d75e0d056"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 23 -b SpecialKey 23 -f SpecialKey 67 tagged/nightshimmer.vim > runtime/colors/nightshimmer.vim\"": {
+        "runtime/colors/nightshimmer.vim": "output-b8ec9108d188493aca4dabf3530a12b7"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 24 -b DiffChange 22 -f DiffDelete 52 -c 45637f 24 tagged/navajo-night.vim > runtime/colors/navajo-night.vim\"": {
+        "runtime/colors/navajo-night.vim": "output-f8ad9b3dea819bbbe4d31a2fe8e294cb"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Normal 58 -c darkolivegreen 64 tagged/olive.vim > runtime/colors/olive.vim\"": {
+        "runtime/colors/olive.vim": "output-6ea15995f260d3fee32e6f3904d05627"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b PmenuThumb 88 -b SpellCap 25 -b SpellRare 28 -b SpellLocal 94 tagged/herald.vim > runtime/colors/herald.vim\"": {
+        "runtime/colors/herald.vim": "output-4f3ab5207bfd0c10d0935bc25fefec04"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpecialKey 29 -b Visual 29 -b DiffAdd 29 -b DiffDelete 65 -b SpellCap 58 -c 096354 29 -c 204d40 22 tagged/tabula.vim > runtime/colors/tabula.vim\"": {
+        "runtime/colors/tabula.vim": "output-b30a33ae0ca3d661deb009da2bd58154"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellBad NONE -b SpellCap NONE -b SpellRare NONE -b SpellLocal NONE -a SpellBad underline -a SpellCap underline -a SpellRare underline -a SpellLocal underline -f IncSearch 65 -b Search 22 -f Float 146 -f Operator 230 -f Debug 181 -c c3bf9f 144 tagged/zenburn.vim > runtime/colors/zenburn.vim\"": {
+        "runtime/colors/zenburn.vim": "output-fa026b86c636657ae4a867d889a57665"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellCap 100 -b SpellRare 130 -b SpellLocal 130 tagged/lucius.vim > runtime/colors/lucius.vim\"": {
+        "runtime/colors/lucius.vim": "output-1ede35ef596caf30e9a9a218cf7b7fb1"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellCap 21 tagged/borland.vim > runtime/colors/borland.vim\"": {
+        "runtime/colors/borland.vim": "output-7b7f76a035349add783b57ae77c008de"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellCap 30 -b SpellLocal 94 -b DiffAdd 22 -b DiffDelete 52 -b DiffText 53 -b Error 52 -f User2 103 -c cfbfad 250 -c 3e3e5e 60 tagged/inkpot.vim > runtime/colors/inkpot.vim\"": {
+        "runtime/colors/inkpot.vim": "output-aa352572dbc9f3e393ad667f97e7bcc1"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellCap 94 -b SpellRare bg -a SpellRare underline -b SpellLocal 23 -b Normal 17 -c 102848 17 tagged/dusk.vim > runtime/colors/dusk.vim\"": {
+        "runtime/colors/dusk.vim": "output-2228d836e1f769dd293a7767abee36ec"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b SpellCap bg -a SpellCap underline -b SpellRare 130 -b SpellLocal 130 tagged/northland.vim > runtime/colors/northland.vim\"": {
+        "runtime/colors/northland.vim": "output-0d99454dca64589fe3909b23028e3841"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b StatusLine 22 tagged/asu1dark.vim > runtime/colors/asu1dark.vim\"": {
+        "runtime/colors/asu1dark.vim": "output-c0117d5aab6d22bf1c16ebbae27494d0"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b StatusLine 23 tagged/brookstream.vim > runtime/colors/brookstream.vim\"": {
+        "runtime/colors/brookstream.vim": "output-5dc16d87da20322067b9de9875f86b9b"
+    }, 
+    "sh -c \"./scripts/gui2xterm -b Visual 17 -f rubyStringDelimiter 23 tagged/tir_black.vim > runtime/colors/tir_black.vim\"": {
+        "runtime/colors/tir_black.vim": "output-be78d1a0857983aae5ca2466d66685b2"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 082926 22 -c 0C2628 22 -c 22364C 23 tagged/moss.vim > runtime/colors/moss.vim\"": {
+        "runtime/colors/moss.vim": "output-fa754d86e5e5473ef4bab7dbc1ed0462"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 0d2349 17 -b Normal 18 -b DiffAdd 17 tagged/softblue.vim > runtime/colors/softblue.vim\"": {
+        "runtime/colors/softblue.vim": "output-647ab3a37deb084e4b61f10b5184bb1d"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 103040 23 -f SpecialKey 60 -b SpellCap 100 -b SpellRare 130 -b SpellLocal 130 tagged/oceandeep.vim > runtime/colors/oceandeep.vim\"": {
+        "runtime/colors/oceandeep.vim": "output-b8474f89950a48b359bd0bec7d6f49f3"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 113311 22 -c 226622 28 -c 339933 34 tagged/matrix.vim > runtime/colors/matrix.vim\"": {
+        "runtime/colors/matrix.vim": "output-351beff3714ed6a36bb3e3f41e1de40b"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 233b5a 24 -b LineNr 18 tagged/darkblue2.vim > runtime/colors/darkblue2.vim\"": {
+        "runtime/colors/darkblue2.vim": "output-594cdbca3214ef338267b127a5be405c"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 2f4f4f 23 tagged/darkslategray.vim > runtime/colors/darkslategray.vim\"": {
+        "runtime/colors/darkslategray.vim": "output-1f27cc420c4ccdf402dde8b64420d4d6"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 336633 22 -c 337733 65 -b CursorColumn 52 -b CursorLine 17 -b SpellCap 30 -b SpellRare 22 -b SpellLocal 18 -f SpellBad fg -f SpellCap fg -f SpellRare fg -f SpellLocal fg tagged/relaxedgreen.vim > runtime/colors/relaxedgreen.vim\"": {
+        "runtime/colors/relaxedgreen.vim": "output-bb46434e1f50aeee09ed962333f72c99"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 3a553a 22 tagged/rootwater.vim > runtime/colors/rootwater.vim\"": {
+        "runtime/colors/rootwater.vim": "output-b7fa668abeff10943cc70b5a72b8b585"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c 707090 60 tagged/darkbone.vim > runtime/colors/darkbone.vim\"": {
+        "runtime/colors/darkbone.vim": "output-8a353fc39c92c5c3f1f552fa6bbd9ccb"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c c2bfa5 187 tagged/jammy.vim > runtime/colors/jammy.vim\"": {
+        "runtime/colors/jammy.vim": "output-86cc065ecc85f3145f57e6cc6c06733c"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c darkolivegreen 58 -c 304020 22 tagged/robinhood.vim > runtime/colors/robinhood.vim\"": {
+        "runtime/colors/robinhood.vim": "output-7618aebca40e2503e6046e5d521e4309"
+    }, 
+    "sh -c \"./scripts/gui2xterm -c ef5939 202 -b SpellBad 130 -b SpellCap 28 -b SpellLocal 31 tagged/darkspectrum.vim > runtime/colors/darkspectrum.vim\"": {
+        "runtime/colors/darkspectrum.vim": "output-2bb4084e16c03e82ed04b3858652ae46"
+    }, 
+    "sh -c \"./scripts/gui2xterm -f SpecialKey 60 -b SpecialKey 23 -c 305060 23 tagged/oceanblack.vim > runtime/colors/oceanblack.vim\"": {
+        "runtime/colors/oceanblack.vim": "output-18372ecf4382af429e7417a792c17282"
+    }, 
+    "sh -c \"./scripts/gui2xterm -f SpellBad fg -f SpellCap fg -f SpellLocal fg -f SpellRare fg -c 43705a 65 tagged/neverness.vim > runtime/colors/neverness.vim\"": {
+        "runtime/colors/neverness.vim": "output-7ff46163ef323b90c6b8b4a696b122db"
+    }, 
+    "sh -c \"./scripts/gui2xterm -f SpellBad fg -f SpellCap fg -f SpellLocal fg -f SpellRare fg tagged/leo.vim > runtime/colors/leo.vim\"": {
+        "runtime/colors/leo.vim": "output-81739d096ea052bde11ba163652b0e6a"
+    }, 
+    "sh -c \"./scripts/gui2xterm -f StatusLine 95 tagged/ChocolateLiquor.vim > runtime/colors/ChocolateLiquor.vim\"": {
+        "runtime/colors/ChocolateLiquor.vim": "output-6480ecde2a6636aa07f896e81ede3c92"
+    }, 
+    "sh -c \"./scripts/gui2xterm -f Visual 61 tagged/wuye.vim > runtime/colors/wuye.vim\"": {
+        "runtime/colors/wuye.vim": "output-d2cc0afcea79db752879a3560bdd52fd"
+    }
+}

@@ -29,20 +29,18 @@ set laststatus=2
 set pastetoggle=<F2>
 set viminfo='10,\"100,:20,%,n~/.viminfo
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
-" set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
+
+syntax on 
+filetype on
+filetype plugin indent on
+colorscheme wombat256 
 
 " For loading plugins
 execute pathogen#infect()
 
-colorscheme desert 
-syntax on 
-filetype on
-filetype plugin indent on
 autocmd! bufwritepost vimrc source ~/.vimrc
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-hi LineNr term=bold ctermfg=Red guifg=#80a0ff gui=bold
 cmap w!! w !sudo tee % >/dev/null
-
 
 " Cursor position save between buffers
 if v:version >= 700
@@ -73,4 +71,10 @@ let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>, :BufExplorer<cr>
+
+" NerdCommenter
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+" let g:NERDCustomDelimiters = { 'php': { 'left': '/**','right': '*/' } }
+let g:NERDTrimTrailingWhitespace = 1
 

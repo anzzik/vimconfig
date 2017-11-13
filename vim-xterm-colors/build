@@ -1,0 +1,524 @@
+#!/usr/bin/env python
+
+# Copyright 2010 Kevin Goodsell
+#
+# This file is part of vim-xterm-colors.
+#
+# vim-xterm-colors is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License Version 2
+# as published by the Free Software Foundation.
+#
+# vim-xterm-colors is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with vim-xterm-colors.  If not, see
+# <http://www.gnu.org/licenses/>.
+
+import sys
+import os
+
+import fabricate
+
+# These use exec:
+# astronaut.vim (variable expansion)
+# marklar.vim (variable expansion)
+# twilight.vim (variable expansion)
+# two2tango.vim (variable expansion)
+#
+
+schemes = [
+    # Dark background schemes
+    ('BlackSea.vim',        []),
+    ('ChocolateLiquor.vim', ['-f', 'StatusLine', '95']),
+    ('adaryn.vim',          []),
+    ('adrian.vim',          []),
+    ('aiseered.vim',        []),
+    ('anotherdark.vim',     []),
+    ('aqua.vim',            []),
+    ('asu1dark.vim',        ['-b', 'StatusLine', '22']),
+    ('bluegreen.vim',       [
+        '-b', 'Normal', '17',
+        '-b', 'NonText', '60',
+    ]),
+    ('borland.vim',         ['-b', 'SpellCap', '21']),
+    ('breeze.vim',          []),
+    ('brookstream.vim',     ['-b', 'StatusLine', '23']),
+    ('camo.vim',            []),
+    ('candy.vim',           ['-b', 'DiffChange', '52']),
+    ('candycode.vim',       []),
+    ('clarity.vim',         [
+        '-b', 'Normal', '17',
+        '-b', 'NonText', '24',
+    ]),
+    # In spite of declaring itself dark (and therefore requiring dark defaults
+    # for matching), cleanphp is light and --spell=dark is illegible.
+    ('cleanphp.vim',        ['--spell=light']),
+    ('colorer.vim',         []),
+    ('dante.vim',           ['-b', 'DiffChange', '125']),
+    ('darkZ.vim',           []),
+    ('darkblue2.vim',       [
+        '-c', '233b5a', '24',
+        '-b', 'LineNr', '18',
+    ]),
+    ('darkbone.vim',        ['-c', '707090', '60']),
+    ('darkslategray.vim',   ['-c', '2f4f4f', '23']),
+    ('darkspectrum.vim',    [
+        '-c', 'ef5939' , '202',
+        '-b', 'SpellBad', '130',
+        '-b', 'SpellCap', '28',
+        '-b', 'SpellLocal', '31',
+    ]),
+    ('denim.vim',           []),
+    ('desertEx.vim',        []),
+    ('dusk.vim',            [
+        '-b', 'SpellCap', '94',
+        '-b', 'SpellRare', 'bg',
+        '-a', 'SpellRare', 'underline',
+        '-b', 'SpellLocal', '23',
+        '-b', 'Normal', '17',
+        '-c', '102848', '17',
+    ]),
+    ('dw_blue.vim',         []),
+    ('dw_cyan.vim',         []),
+    ('dw_green.vim',        []),
+    ('dw_orange.vim',       []),
+    ('dw_purple.vim',       []),
+    ('dw_red.vim',          []),
+    ('dw_yellow.vim',       []),
+    ('fnaqevan.vim',        ['-b', 'Folded', '53']),
+    ('freya.vim',           []),
+    ('fruity.vim',          []),
+    ('golden.vim',          []),
+    ('guardian.vim',        ['-b', 'NonText', '24']),
+    ('herald.vim',          [
+        '-b', 'PmenuThumb', '88',
+        '-b', 'SpellCap', '25',
+        '-b', 'SpellRare', '28',
+        '-b', 'SpellLocal', '94',
+    ]),
+    ('inkpot.vim',          [
+        '-b', 'SpellCap', '30',
+        '-b', 'SpellLocal', '94',
+        '-b', 'DiffAdd', '22',
+        '-b', 'DiffDelete', '52',
+        '-b', 'DiffText', '53',
+        '-b', 'Error', '52',
+        '-f', 'User2', '103',
+        '-c', 'cfbfad', '250',
+        '-c', '3e3e5e', '60',
+    ]),
+    ('ir_black.vim',        ['-b', 'Error', '124']),
+    ('jammy.vim',           ['-c', 'c2bfa5', '187']),
+    ('kellys.vim',          []),
+    ('leo.vim',             [
+        '-f', 'SpellBad', 'fg',
+        '-f', 'SpellCap', 'fg',
+        '-f', 'SpellLocal', 'fg',
+        '-f', 'SpellRare', 'fg',
+    ]),
+    ('lucius.vim',          [
+        '-b', 'SpellCap', '100',
+        '-b', 'SpellRare', '130',
+        '-b', 'SpellLocal', '130',
+    ]),
+    ('manxome.vim',         []),
+    ('maroloccio.vim',      [
+        '-b', 'Normal', '17',
+        '-c', '8f3231', '88',
+        '-c', '333366', '60',
+    ]),
+    ('matrix.vim',          [
+        '-c', '113311', '22',
+        '-c', '226622', '28',
+        '-c', '339933', '34',
+    ]),
+    ('molokai.vim',         [
+        '-b', 'DiffAdd', '17',
+        '-b', 'SpellRare', 'bg',
+        '-a', 'SpellRare', 'underline',
+    ]),
+    ('moss.vim',            [
+        '-c', '082926', '22',
+        '-c', '0C2628', '22',
+        '-c', '22364C', '23',
+    ]),
+    ('motus.vim',           []),
+    ('mustang.vim',         []),
+    ('navajo-night.vim',    [
+        '-b', 'Normal', '24',
+        '-b', 'DiffChange', '22',
+        '-f', 'DiffDelete', '52',
+        '-c', '45637f', '24',
+    ]),
+    ('neon.vim',            ['-b', 'DiffChange', '52']),
+    ('neverness.vim',       [
+        '-f', 'SpellBad', 'fg',
+        '-f', 'SpellCap', 'fg',
+        '-f', 'SpellLocal', 'fg',
+        '-f', 'SpellRare', 'fg',
+        '-c', '43705a', '65',
+    ]),
+    ('night.vim',           []),
+    ('nightshimmer.vim',    [
+        '-b', 'Normal', '23',
+        '-b', 'SpecialKey', '23',
+        '-f', 'SpecialKey', '67',
+    ]),
+    ('no_quarter.vim',      ['-b', 'DiffChange', '52']),
+    ('northland.vim',       [
+        '-b', 'SpellCap', 'bg',
+        '-a', 'SpellCap', 'underline',
+        '-b', 'SpellRare', '130',
+        '-b', 'SpellLocal', '130',
+    ]),
+    ('oceanblack.vim',      [
+        '-f', 'SpecialKey', '60',
+        '-b', 'SpecialKey', '23',
+        '-c', '305060', '23',
+    ]),
+    ('oceandeep.vim',       [
+        '-c', '103040', '23',
+        '-f', 'SpecialKey', '60',
+        '-b', 'SpellCap', '100',
+        '-b', 'SpellRare', '130',
+        '-b', 'SpellLocal', '130',
+    ]),
+    ('olive.vim',           [
+        '-b', 'Normal', '58',
+        '-c', 'darkolivegreen', '64',
+    ]),
+    ('railscasts.vim',      ['-b', 'DiffAdd', '22']),
+    ('rdark.vim',           []),
+    ('relaxedgreen.vim',    [
+        '-c', '336633', '22',
+        '-c', '337733', '65',
+        '-b', 'CursorColumn', '52',
+        '-b', 'CursorLine', '17',
+        '-b', 'SpellCap', '30',
+        '-b', 'SpellRare', '22',
+        '-b', 'SpellLocal', '18',
+        '-f', 'SpellBad', 'fg',
+        '-f', 'SpellCap', 'fg',
+        '-f', 'SpellRare', 'fg',
+        '-f', 'SpellLocal', 'fg',
+    ]),
+    ('robinhood.vim',       [
+        '-c', 'darkolivegreen', '58',
+        '-c', '304020', '22',
+    ]),
+    ('rootwater.vim',       [
+        '-c', '3a553a', '22',
+    ]),
+    ('sea.vim',             [
+        '-b', 'NonText', '18',
+        '-b', 'Normal', '17',
+    ]),
+    ('settlemyer.vim',      []),
+    ('softblue.vim',        [
+        '-c', '0d2349', '17',
+        '-b', 'Normal', '18',
+        '-b', 'DiffAdd', '17',
+    ]),
+    ('synic.vim',           []),
+    ('tabula.vim',          [
+        '-b', 'SpecialKey', '29',
+        '-b', 'Visual', '29',
+        '-b', 'DiffAdd', '29',
+        '-b', 'DiffDelete', '65',
+        '-b', 'SpellCap', '58',
+        '-c', '096354', '29',
+        '-c', '204d40', '22',
+    ]),
+    ('tango.vim',           []),
+    ('tango2.vim',          []),
+    ('tir_black.vim',       [
+        '-b', 'Visual', '17',
+        '-f', 'rubyStringDelimiter', '23',
+    ]),
+    ('torte.vim',           []),
+    ('vibrantink.vim',      []),
+    ('vividchalk.vim',      []),
+    ('wombat.vim',          []),
+    ('wood.vim',            []),
+    ('wuye.vim',            [
+        '-f', 'Visual', '61',
+    ]),
+    ('xemacs.vim',          [
+        # xemacs is a light-background scheme that uses background=dark. Dark
+        # Spell defaults are not legible.
+        '--spell=light',
+        '-b', 'StatusLineNC', '146',
+    ]),
+    ('xoria256.vim',        []),
+    ('zenburn.vim',         [
+        '-b', 'SpellBad', 'NONE',
+        '-b', 'SpellCap', 'NONE',
+        '-b', 'SpellRare', 'NONE',
+        '-b', 'SpellLocal', 'NONE',
+        '-a', 'SpellBad', 'underline',
+        '-a', 'SpellCap', 'underline',
+        '-a', 'SpellRare', 'underline',
+        '-a', 'SpellLocal', 'underline',
+        '-f', 'IncSearch', '65',
+        '-b', 'Search', '22',
+        '-f', 'Float', '146',
+        '-f', 'Operator', '230',
+        '-f', 'Debug', '181',
+        '-c', 'c3bf9f', '144',
+    ]),
+    ('zmrok.vim',           []),
+
+    # These ones use existing 'background' setting rather than setting it
+    # explicitly:
+    ('baycomb.vim',         [
+        '--spell=none',
+        '-c', '354070', '60',
+        '-c', '6880ea', '110',
+        '-c', '004335', '23',
+        '-c', '152555', '17',
+    ]),
+    ('earendel.vim',        [
+        '--spell=none',
+        '-c', 'bcc7de', '152',
+        '-c', '35466a', '60',
+    ]),
+    ('moria.vim',           [
+        '--spell=none',
+        '-c', '334b7d', '24',
+        '-c', '25365a', '17',
+    ]),
+    ('peaksea.vim',         ['--spell=none']),
+    ('sienna.vim',          ['--spell=none']),
+
+    # Light background schemes
+    ('PapayaWhip.vim',        ['--light', '-f', 'StatusLine', '94']),
+    ('autumn.vim',            ['--light']),
+    ('autumn2.vim',           ['--light']),
+    ('autumnleaf.vim',        ['--light']),
+    ('bclear.vim',            ['--light', '--spell=none']),
+    ('biogoo.vim',            [
+        '--light',
+        '--spell=none',
+        '-a', 'SpellBad', 'underline',
+        '-a', 'SpellCap', 'underline',
+        '-a', 'SpellRare', 'underline',
+        '-a', 'SpellLocal', 'underline',
+    ]),
+    ('buttercream.vim',       ['--light']),
+    ('chela_light.vim',       [
+        '--light',
+        '-b', 'SpellBad', '217',
+        '-b', 'SpellCap', '217',
+        '-b', 'SpellRare', '120',
+        '-b', 'SpellLocal', '217',
+    ]),
+    ('dawn.vim',              ['--light', '-b', 'SpellLocal', '109']),
+    ('eclipse.vim',           [
+        '--light',
+        '-b', 'StatusLine', '67',
+        '-b', 'Visual', '216',
+        '-b', 'Folded', '223',
+        '-b', 'DiffChange', '224',
+    ]),
+    ('ekvoli.vim',          [
+        '--light',
+        '-b', 'SpellBad', '31',
+        '-b', 'SpellCap', '23',
+        '-b', 'SpellRare', '55',
+        '-b', 'SpellLocal', 'bg',
+        '-a', 'SpellLocal', 'underline',
+        '-b', 'Normal', '17',
+        '-b', 'Folded', '18',
+        '-a', 'Error', 'bold,underline',
+    ]),
+    ('fine_blue.vim',         ['--light']),
+    ('fog.vim',               ['--light']),
+    ('fruit.vim',             ['--light']),
+    ('habiLight.vim',         ['--light']),
+    ('ironman.vim',           [
+        '--light',
+        '-b', 'StatusLine', '67',
+        '-c', 'a0b0c0', '146',
+    ]),
+    ('martin_krischik.vim',   [
+        '--light',
+        '-b', 'CursorColumn', '230',
+        '-a', 'Error', 'underline',
+    ]),
+    ('navajo.vim',            [
+        '--light',
+        '-b', 'Normal', '180',
+    ]),
+    ('nuvola.vim',            ['--light', '-b', 'DiffText', '224']),
+    ('oceanlight.vim',        ['--light']),
+    ('print_bw.vim',          ['--light']),
+    ('pyte.vim',              [
+        '--light',
+        '-c', 'a0b0c0', '146',
+    ]),
+    ('satori.vim',            ['--light']),
+    ('silent.vim',            [
+        '--light',
+        '-b', 'SpellCap', '217',
+        '-b', 'SpellRare', '217',
+        '-b', 'SpellLocal', '217',
+        '-c', 'f1ffc1', '193',
+    ]),
+    ('simpleandfriendly.vim', ['--light']),
+    ('soso.vim',              [
+        '--light',
+        '-b', 'SpellBad', 'bg',
+        '-a', 'SpellBad', 'underline',
+        '-b', 'SpellCap', '120',
+        '-b', 'SpellRare', 'bg',
+        '-a', 'SpellRare', 'underline',
+    ]),
+    ('spring.vim',            [
+        '--light',
+        '-c', '2f4f4f', '23',
+        '-b', 'Normal', '194',
+    ]),
+    ('taqua.vim',             ['--light']),
+    ('tcsoft.vim',            ['--light']),
+    ('tolerable.vim',         ['--light']),
+    ('vc.vim',                ['--light']),
+    ('vylight.vim',           ['--light']),
+    ('winter.vim',            ['--light']),
+]
+
+patch_only = [
+    'lettuce.vim', # separate gui & cterm sections with non-convertible bits
+
+    # These calculate the terminal color from the gui color:
+    'desert256.vim',
+    'jellybeans.vim',
+    'summerfruit256.vim',
+    'wombat256.vim',
+
+    # These calculate the gui color from the terminal color:
+    'calmar256-dark.vim',
+    'calmar256-light.vim',
+]
+
+scheme_names = [name for (name, args) in schemes] + patch_only
+
+def mkdir(path):
+    try:
+        os.makedirs(path)
+    except OSError:
+        pass
+
+background_variations = ['set background=dark', 'set background=light']
+
+test_variations = {
+    # {'colorscheme.vim' : ['extra_cmds1', ...]}
+    'baycomb.vim' : background_variations,
+    'biogoo.vim' : ['let biogoo_normal_cursor=1', None],
+    'earendel.vim' : background_variations,
+    'inkpot.vim' : ['let inkpot_black_background=1', None],
+    'molokai.vim' : ['let molokai_original=1', None],
+    'moria.vim' : [
+        'let moria_style="dark"|let moria_monochrome=1|let moria_fontface="mixed"',
+        'let moria_style="black"|let moria_monochrome=1',
+        'let moria_style="black"|let moria_fontface="mixed"',
+        'let moria_style="black"',
+        'let moria_style="light"|let moria_monochrome=1',
+        'let moria_style="white"',
+    ],
+    'peaksea.vim' : background_variations,
+    'sienna.vim' : ['let sienna_style="dark"', 'let sienna_style="light"'],
+    'tabula.vim' : [
+        'let Tabula_CurColor="blue"',
+        'let Tabula_CurColor="red"|let Tabula_BoldStatement=1',
+        'let Tabula_CurColor="yellow"|let Tabula_FlatConstants=0',
+        'let Tabula_CurColor="white"|let Tabula_InvisibleIgnore=0',
+        'let Tabula_DarkError=1|let Tabula_LNumUnderline=1',
+        'let Tabula_ColorPre="blue"|let Tabula_SearchStandOut=1',
+        'let Tabula_ColorPre="red"|let Tabula_SearchStandOut=2',
+        'let Tabula_ColorPre="yellow"|let Tabula_TodoUnderline=0',
+    ],
+    'zenburn' : [
+        'let zenburn_high_Contrast=1|let zenburn_alternate_Include=1',
+        'let zenburn_alternate_Visual=1|let zenburn_color_also_Ignore=1',
+        'let zenburn_alternate_Error=1',
+    ]
+}
+
+def make_test_file(schemefile, extra_cmds=None, variation=None):
+    if extra_cmds is None:
+        extra_cmds = []
+    if isinstance(extra_cmds, str):
+        extra_cmds = [extra_cmds]
+
+    (scheme, ext) = os.path.splitext(schemefile)
+
+    if variation is None:
+        outname = scheme
+    else:
+        outname = '%s-%02d' % (scheme, variation)
+
+    # Using the full path here works around a fabricate problem. Vim uses
+    # fchdir, which fabricate doesn't know about, so fabricate gets the cwd
+    # wrong and comes up with the wrong file path.
+    hipath = '%s/test/%s.hi' % (os.path.abspath(os.getcwd()), outname)
+    vim_cmds = [
+        'set nocompatible',
+        'set runtimepath^=runtime',
+        'set t_Co=256',
+    ] + extra_cmds + [
+        'syntax on',
+        'colorscheme %s' % scheme,
+        'redir! > %s' % hipath,
+        'silent hi',
+        'echo "\\n"',
+        'q',
+    ]
+    fabricate.run('vim', '-u', 'NONE', '-c', '|'.join(vim_cmds))
+    fabricate.run('sh', '-c',
+                  r"sed -r -n -e 's/^(\w+)\s+xxx\s+(.*)/hi \1 \2/p' "
+                  r"test/%s.hi > test/%s.vim" % (outname, outname))
+
+def test_files():
+    build()
+    mkdir('test')
+
+    for scheme in scheme_names:
+        variations = test_variations.get(scheme)
+        if variations:
+            for (i, v) in enumerate(variations):
+                make_test_file(scheme, v, i+1)
+        else:
+            make_test_file(scheme)
+
+def patch(scheme):
+    patch_file = os.path.join('patches', scheme + '.diff')
+    if os.path.exists(patch_file):
+        fabricate.run('patch', '-p0', '-o', 'patched/' +  scheme,
+                      'originals/' + scheme, patch_file)
+    else:
+        fabricate.run('cp', 'originals/' + scheme, 'patched/' + scheme)
+
+def tag(scheme):
+    fabricate.run('./scripts/tag', 'patched/' + scheme, 'tagged/' + scheme)
+
+def build():
+    mkdir('patched')
+    mkdir('tagged')
+    for scheme in scheme_names:
+        patch(scheme)
+        tag(scheme)
+
+    mkdir('runtime/colors')
+    for (scheme, args) in schemes:
+        cmd = './scripts/gui2xterm %s tagged/%s > runtime/colors/%s' % \
+              (' '.join(args), scheme, scheme)
+        fabricate.run('sh', '-c', cmd)
+
+    for scheme in patch_only:
+        fabricate.run('cp', 'tagged/' + scheme, 'runtime/colors/')
+
+if __name__ == '__main__':
+    fabricate.main()
