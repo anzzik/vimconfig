@@ -72,6 +72,8 @@ let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>, :BufExplorer<cr>
 
+let g:netrw_banner = 0
+
 " NerdCommenter
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
