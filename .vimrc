@@ -1,5 +1,7 @@
 set gfn=Monospace\ 11
 set t_Co=256
+" set term=screen-256color
+set t_ut=
 set shell=/bin/bash
 set history=700
 set autoread
