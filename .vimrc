@@ -29,6 +29,8 @@ set laststatus=2
 set pastetoggle=<F2>
 set viminfo='10,\"100,:20,%,n~/.viminfo
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set path+=**
+set wildmenu
 
 syntax on 
 filetype on
