@@ -1,5 +1,7 @@
 set gfn=Monospace\ 11
 set t_Co=256
+" set term=screen-256color
+set t_ut=
 set shell=/bin/bash
 set history=700
 set autoread
@@ -73,6 +75,8 @@ let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>, :BufExplorer<cr>
+
+let g:netrw_banner = 0
 
 " NerdCommenter
 let g:NERDSpaceDelims = 1
