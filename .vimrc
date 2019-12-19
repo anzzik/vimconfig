@@ -1,6 +1,4 @@
 set gfn=Monospace\ 11
-set t_Co=256
-" set term=screen-256color
 set t_ut=
 set shell=/bin/bash
 set history=700
@@ -70,6 +68,8 @@ map <leader>l :Glog<cr>
 map <leader>g :Ggrep -in 
 map <leader>h :set filetype=html<cr>
 map <leader>p :set filetype=php<cr>
+map <leader>b :%!xxd<cr>
+map <leader>B :%!xxd -r<cr>
 
 let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
@@ -79,8 +79,32 @@ map <leader>, :BufExplorer<cr>
 let g:netrw_banner = 0
 
 " NerdCommenter
+
+" <leader>cc : comment
+" <leader>cu : uncomment
+
+" Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
 let g:NERDDefaultAlign = 'left'
-" let g:NERDCustomDelimiters = { 'php': { 'left': '/**','right': '*/' } }
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
+
+" Enable NERDCommenterToggle to check all selected lines is commented or not 
+let g:NERDToggleCheckAllLines = 1
+
+
+" Set a language to use its alternate delimiters by default
+"let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+"let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 
