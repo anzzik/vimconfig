@@ -40,7 +40,7 @@ colorscheme wombat
 " For loading plugins
 execute pathogen#infect()
 
-autocmd! bufwritepost vimrc source ~/.vimrc
+autocmd! BufWritePost .vimrc source ~/.vimrc
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 cmap w!! w !sudo tee % >/dev/null
 
