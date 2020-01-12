@@ -137,12 +137,12 @@ let g:NERDToggleCheckAllLines = 1
 " Add your own custom formats or override the defaults
 "let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 
+" auto-reload .vimrc (! means removing an existing autocmd and replacing it)
+autocmd! BufWritePost .vimrc source ~/.vimrc
+
 let g:hostname = system("hostname -s | tr -d '\n'")
 
 if g:hostname == 'arch-pc'
-	" auto-reload .vimrc (! means removing an existing autocmd and replacing it)
-	autocmd! BufWritePost .vimrc source ~/.vimrc
-
 	" auto-compile dwm
 	autocmd! BufWritePost ~/src/suckless/dwm/config.h make && sudo make install
 
