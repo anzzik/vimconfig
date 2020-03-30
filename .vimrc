@@ -2,7 +2,7 @@
 set nocompatible
 
 " if background color doesn't work properly, try uncommenting this
-" set t_ut=
+set t_ut=
 
 set shell=/bin/bash
 set history=700
@@ -64,9 +64,8 @@ syntax on
 filetype plugin indent on
 " colorscheme wombat 
 
-" For loading plugins
+" For autoloading plugins
 execute pathogen#infect()
-
 
 " j and k work logically with line wraps
 nnoremap <expr> j (v:count <= 1 ? 'gj' : 'j')
@@ -81,27 +80,23 @@ if v:version >= 700
     au BufEnter * if(exists('b:winview')) | call winrestview(b:winview) | endif
 endif
 
-let mapleader = ","
 let g:mapleader = ","
 
 map <space> /
 map <silent> <right> :bn<cr>
 map <silent> <left> :bp<cr>
 map <Tab> ==
-
-" These are related to fugitive plugin, maybe remove it at some point?
-" map <leader>s :Gstatus<cr>
-" map <leader>c :Gcommit<cr>
-" map <leader>l :Glog<cr>
-" map <leader>g :Ggrep -in 
-
 map <leader>h :set filetype=html<cr>
 map <leader>p :set filetype=php<cr>
 map <leader>b :%!xxd<cr>
 map <leader>B :%!xxd -r<cr>
 map <leader>e :e ~/.vimrc<cr>
-map <leader>, :BufExplorer<cr>
+map <leader>f :Vifm<cr>
+map <leader>v :VsplitVifm<cr>
+map <leader>h :SplitVifm<cr>
+map <leader>t :TabVifm<cr>
 
+map <leader>, :BufExplorer<cr>
 let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
