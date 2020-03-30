@@ -20,3 +20,6 @@
 [submodule "bundle/vifm.vim"]
 	path = bundle/vifm.vim
 	url = https://github.com/vifm/vifm.vim.git
+[submodule "bundle/vim-css-color"]
+	path = bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
