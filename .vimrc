@@ -96,6 +96,17 @@ map <leader>v :VsplitVifm<cr>
 map <leader>h :SplitVifm<cr>
 map <leader>t :TabVifm<cr>
 
+set splitbelow splitright
+noremap <silent> <C-h> :vertical resize +3<CR>
+noremap <silent> <C-l> :vertical resize -3<CR>
+noremap <silent> <C-j> :resize -3<CR>
+noremap <silent> <C-k> :resize +3<CR>
+
+"nnoremap <silent> <C-h> <C-w>h
+"nnoremap <silent> <C-l> <C-w>l
+"nnoremap <silent> <C-j> <C-w>j
+"nnoremap <silent> <C-k> <C-w>k
+
 map <leader>, :BufExplorer<cr>
 let g:bufExplorerSortBy = "name"
 let g:bufExplorerDefaultHelp=0
