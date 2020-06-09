@@ -102,10 +102,30 @@ noremap <silent> <C-l> :vertical resize -3<CR>
 noremap <silent> <C-j> :resize -3<CR>
 noremap <silent> <C-k> :resize +3<CR>
 
+
+" Alt-key workaround
+let c='a'
+while c <= 'z'
+	exec "set <A-".c.">=\e".c
+	exec "imap \e".c." <A-".c.">"
+	let c = nr2char(1+char2nr(c))
+endw
+
+set timeout ttimeoutlen=50
+
+" move lines up or down with alt+j/k
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
 "nnoremap <silent> <C-h> <C-w>h
 "nnoremap <silent> <C-l> <C-w>l
 "nnoremap <silent> <C-j> <C-w>j
 "nnoremap <silent> <C-k> <C-w>k
+
 
 map <leader>, :BufExplorer<cr>
 let g:bufExplorerSortBy = "name"
