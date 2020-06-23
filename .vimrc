@@ -64,6 +64,8 @@ syntax on
 filetype plugin indent on
 " colorscheme wombat 
 
+let g:asmsyntax = "nasm"
+
 " For autoloading plugins
 execute pathogen#infect()
 
