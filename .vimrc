@@ -62,7 +62,7 @@ set wildmenu
 
 syntax on 
 filetype plugin indent on
-" colorscheme wombat 
+colorscheme wombat 
 
 let g:asmsyntax = "nasm"
 
@@ -84,29 +84,32 @@ endif
 
 let g:mapleader = ","
 
-map <space> /
 map <silent> <right> :bn<cr>
 map <silent> <left> :bp<cr>
 map <Tab> ==
-map <leader>h :set filetype=html<cr>
-map <leader>p :set filetype=php<cr>
 map <leader>b :%!xxd<cr>
 map <leader>B :%!xxd -r<cr>
 map <leader>e :e ~/.vimrc<cr>
 map <leader>f :Vifm<cr>
-map <leader>v :VsplitVifm<cr>
-map <leader>h :SplitVifm<cr>
-map <leader>t :TabVifm<cr>
+map <leader>q :bd<cr>
+
+" move between splits
+map <leader>h :wincmd h<cr>
+map <leader>j :wincmd j<cr>
+map <leader>k :wincmd k<cr>
+map <leader>l :wincmd l<cr>
+
+map <leader>v :vs<cr>
+map <leader>s :sp<cr>
 
 set splitbelow splitright
-noremap <silent> <C-h> :vertical resize +3<CR>
-noremap <silent> <C-l> :vertical resize -3<CR>
-noremap <silent> <C-j> :resize -3<CR>
-noremap <silent> <C-k> :resize +3<CR>
-
+map <silent> <C-h> :vertical resize +3<CR>
+map <silent> <C-l> :vertical resize -3<CR>
+map <silent> <C-j> :resize -3<CR>
+map <silent> <C-k> :resize +3<CR>
 
 " Alt-key workaround
-let c='a'
+let c = 'a'
 while c <= 'z'
 	exec "set <A-".c.">=\e".c
 	exec "imap \e".c." <A-".c.">"
@@ -122,12 +125,6 @@ inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
-
-"nnoremap <silent> <C-h> <C-w>h
-"nnoremap <silent> <C-l> <C-w>l
-"nnoremap <silent> <C-j> <C-w>j
-"nnoremap <silent> <C-k> <C-w>k
-
 
 map <leader>, :BufExplorer<cr>
 let g:bufExplorerSortBy = "name"
@@ -167,16 +164,6 @@ let g:NERDToggleCheckAllLines = 1
 
 " auto-reload .vimrc (! means removing an existing autocmd and replacing it)
 autocmd! BufWritePost .vimrc source ~/.vimrc
-
-let g:hostname = system("hostname -s | tr -d '\n'")
-
-if g:hostname == 'arch-pc'
-	" auto-compile dwm
-	autocmd! BufWritePost ~/src/suckless/dwm/config.h make && sudo make install
-
-	" auto-reload termite configuration
-	autocmd! BufWritePost ~/.config/termite/config silent !killall -USR1 termite
-endif
 
 " syntastic 
 set statusline+=%#warningmsg#
