@@ -99,8 +99,10 @@ map <leader>j :wincmd j<cr>
 map <leader>k :wincmd k<cr>
 map <leader>l :wincmd l<cr>
 
-map <leader>v :vs<cr>
-map <leader>s :sp<cr>
+map <silent> <leader>t :terminal ++rows=10<cr>
+
+nmap <leader>v :vs<cr>
+nmap <leader>s :sp<cr>
 
 set splitbelow splitright
 map <silent> <C-h> :vertical resize +3<CR>
@@ -116,7 +118,8 @@ while c <= 'z'
 	let c = nr2char(1+char2nr(c))
 endw
 
-set timeout ttimeoutlen=50
+" this prevents accidental line moves with Esc+k and Esc+j
+set timeout ttimeoutlen=5
 
 " move lines up or down with alt+j/k
 nnoremap <A-j> :m .+1<CR>==
