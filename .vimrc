@@ -49,6 +49,7 @@ set number
 set showmatch
 
 " enable cmd line completion menu
+set wildmode=longest,list,full
 set wildmenu
 
 " puts newlines automatically when lines get too long
