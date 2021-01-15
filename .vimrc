@@ -63,12 +63,14 @@ set wildmenu
 
 syntax on 
 filetype plugin indent on
-colorscheme gruvbox
 
 let g:asmsyntax = "nasm"
 
 " For autoloading plugins
 execute pathogen#infect()
+
+set background=dark
+colorscheme gruvbox
 
 " j and k work logically with line wraps
 nnoremap <expr> j (v:count <= 1 ? 'gj' : 'j')
