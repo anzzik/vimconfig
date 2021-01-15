@@ -63,7 +63,7 @@ set wildmenu
 
 syntax on 
 filetype plugin indent on
-colorscheme wombat 
+colorscheme gruvbox
 
 let g:asmsyntax = "nasm"
 
