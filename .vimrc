@@ -72,6 +72,13 @@ execute pathogen#infect()
 set background=dark
 colorscheme gruvbox
 
+" transparent background
+" hi Normal guibg=none ctermbg=none
+
+" override function name coloring (bold doesn't work on Win Terminal)
+" (default color is GruvboxGreenBold)
+hi! link Function GruvboxAqua
+
 " j and k work logically with line wraps
 nnoremap <expr> j (v:count <= 1 ? 'gj' : 'j')
 nnoremap <expr> k (v:count <= 1 ? 'gk' : 'k')
