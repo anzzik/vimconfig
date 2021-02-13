@@ -109,6 +109,10 @@ map <leader>j :wincmd j<cr>
 map <leader>k :wincmd k<cr>
 map <leader>l :wincmd l<cr>
 
+map <leader>1 :diffget 1<cr>
+map <leader>2 :diffget 2<cr>
+map <leader>3 :diffget 3<cr>
+
 map <silent> <leader>t :terminal ++rows=10<cr>
 
 nmap <leader>v :vs<cr>
