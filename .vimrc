@@ -35,9 +35,9 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set pastetoggle=<F2>
 
 " window title is based on the current file name
-set title 
+set title
 
-" when searching (/) with keyword containing uppercase letters, 
+" when searching (/) with keyword containing uppercase letters,
 " makes search case sensitive. Otherwise not.
 set ignorecase
 set smartcase
@@ -61,7 +61,7 @@ set wildmenu
 " set specific search paths for :find
 " set path+=$HOME/src/suckless/dwm
 
-syntax on 
+syntax on
 filetype plugin indent on
 
 let g:asmsyntax = "nasm"
@@ -69,8 +69,16 @@ let g:asmsyntax = "nasm"
 " For autoloading plugins
 execute pathogen#infect()
 
+:autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+:au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+:au InsertLeave * match ExtraWhitespace /\s\+$/
+
 set background=dark
 colorscheme gruvbox
+
+:highlight ExtraWhitespace ctermbg=red guibg=red
+" Show trailing whitespace:
+:match ExtraWhitespace /\s\+$/
 
 " transparent background
 " hi Normal guibg=none ctermbg=none
@@ -170,7 +178,7 @@ let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 
-" Enable NERDCommenterToggle to check all selected lines is commented or not 
+" Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
 
 " Set a language to use its alternate delimiters by default
@@ -182,7 +190,7 @@ let g:NERDToggleCheckAllLines = 1
 " auto-reload .vimrc (! means removing an existing autocmd and replacing it)
 autocmd! BufWritePost .vimrc source ~/.vimrc
 
-" syntastic 
+" syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
